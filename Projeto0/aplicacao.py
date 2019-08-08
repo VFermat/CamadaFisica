@@ -18,12 +18,15 @@ import time
 #   para saber a sua porta, execute no terminal :
 #   python -m serial.tools.list_ports
 
-#serialName = "/dev/ttyACM0"           # Ubuntu (variacao de)
+serialName = "/dev/ttyACM0"           # Ubuntu (variacao de)
 #serialName = "/dev/tty.usbmodem1411" # Mac    (variacao de)
-serialName = "COM11"                  # Windows(variacao de)
+# serialName = "COM11"                  # Windows(variacao de)
 print("abriu com")
 
 def main():
+    # with open('fotoHenry.jpg', 'rb') as image:
+    #   f = image.read()
+    #   txBuffer = bytearray(f)
     # Inicializa enlace ... variavel com possui todos os metodos e propriedades do enlace, que funciona em threading
     com = enlace(serialName) # repare que o metodo construtor recebe um string (nome)
     # Ativa comunicacao
@@ -49,8 +52,12 @@ def main():
     #txBuffer = bytes(ListTxBuffer)
     
     #exemplo2
-    txBuffer = bytes([2]) + bytes([3])+ bytes("teste", 'utf-8')
+    # txBuffer = bytes([2]) + bytes([3])+ bytes("teste", 'utf-8')
     
+    #exemplo3
+    txBuffer = bytes([0])
+    for i in range(1, 256):
+          txBuffer += bytes([i])
     
     txLen    = len(txBuffer)
     print(txLen)
@@ -60,8 +67,8 @@ def main():
     com.sendData(txBuffer)
 
     # espera o fim da transmissão
-    #while(com.tx.getIsBussy()):
-    #    pass
+    while(com.tx.getIsBussy()):
+       pass
     
     
     # Atualiza dados da transmissão
@@ -78,6 +85,9 @@ def main():
     print ("Lido              {} bytes ".format(nRx))
     
     print (rxBuffer)
+
+    # with open('copiaHenry.jpg', 'wb') as image:
+    #   image.write(rxBuffer)
 
     
 
