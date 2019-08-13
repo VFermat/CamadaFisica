@@ -113,7 +113,7 @@ def client(args):
 
 def server(args):
     # Inicializa enlace... variável COM possui todos os métodos e propriedades do enlace, que funciona em threading
-    com = enlace("/dev/ttyACM0") # Repare que o metodo construtor recebe um string (nome)
+    com = enlace(serialName) # Repare que o metodo construtor recebe um string (nome)
     # Ativa comunicacão
     com.enable()
    
