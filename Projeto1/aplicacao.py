@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -27,6 +26,110 @@ serialName = "/dev/ttyACM0"           # Ubuntu (variacao de)
 #serialName = "COM11"                  # Windows(variacao de)
 
 
+class Client():
+
+    def __init__(self, serialName, fileName, debug=False):
+        self.com = enlace(serialName)
+        self.com.enable()
+        self.debug = debug
+        self.fileName = fileName
+        self.results = []
+        if debug:
+            print("[LOG] Comunicação inicializada.")
+            print("[LOG] Porta: {}".format(self.com.fisica.name))
+        self.run()
+
+    def run(self):
+
+        self.shouldStop = False
+        while not self.shouldStop:
+            self.configure(self.fileName)
+            if self.fileName != None:
+                self.emit()
+                self.getResults()
+                self.fileName = None
+        
+        meanImageSize = 0
+        meanDeltaTime = 0
+        meanTransferRate = 0
+        for result in self.results:
+            meanImageSize += result[0]
+            meanDeltaTime += result[1]
+            meanTransferRate += result[2]
+
+        meanImageSize = meanImageSize/len(self.results)
+        meanDeltaTime = meanDeltaTime/len(self.results)
+        meanTransferRate = meanTransferRate/len(self.results)
+        print("[LOG] Tamanho Médio de Imagem.........{:.3f} b".format(meanImageSize))
+        print("[LOG] Tempo Médio de Transferência....{:.3f} s".format(meanDeltaTime))
+        print("[LOG] Taxa Média de transferência.....{:.3f} b/s".format(meanTransferRate))
+        
+    def configure(self, fileName):
+        
+        if fileName is None:
+            if self.debug:
+                print("\n[LOG] Arquivo não fornecido como argumento, usando GUI.")
+            Tk().withdraw() # We don't want a full GUI, so keep the root window from appearing
+            fileName = askopenfilename() # Show an "Open" dialog box and return the path to the selected file
+
+            if type(fileName) is tuple or fileName == "":
+                self.shouldStop = False
+                self.fileName = None
+                return None
+
+        with open(fileName, 'rb') as image:
+            if self.debug:
+                print("[LOG] Arquivo encontrado. Lendo e transformando em bytearray.")
+            imageFile = image.read()     
+            self.imageByteArray = bytearray(imageFile)
+            self.imageSize = bytes(str(len(self.imageByteArray)), 'UTF-8')
+            if self.debug:
+                print("[LOG] Tamanho do arquivo........{} bytes.".format(int(self.imageSize)))
+        
+        self.textBuffer = self.imageSize + bytearray(b"start") + self.imageByteArray
+
+    def emit(self):
+        if self.debug:
+            print("[LOG] Tentado transmitir........{} bytes.".format(len(self.textBuffer)))
+        self.startTime = time.time()
+        self.com.sendData(self.textBuffer)
+
+        # Esperando o fim da transmissão do arquivo.
+        while(self.com.tx.getIsBussy()):
+            pass    
+
+        txSize = self.com.tx.getStatus()
+        if self.debug:
+            print("[LOG] Transmitido...............{} bytes.".format(int(txSize)))
+            print("[LOG] Esperando pela resposta do servidor com o tamanho do arquivo.")
+        # Esperando pela resposta. Sabemos que ela deve ser o tamanho da arquivo.
+        rxBuffer = self.com.getData(len(self.imageSize))[0]
+        self.endTime = time.time()
+        
+        if self.debug:
+            print("[LOG] Resposta: {} bytes.".format(int(rxBuffer)))
+
+        # Verifica se o tamanho recebido está correto.
+        if int(rxBuffer) != int(self.imageSize):
+            if self.debug:
+                print("[LOG] Tamanho incorreto.")
+            
+            # Encerra a comunicação.
+            self.com.disable()
+            if self.debug:
+                print("[LOG] Comunicação encerrada.")
+            self.shouldStop = True
+            
+        if self.debug:
+            print("[LOG] Tamanho correto. Arquivo enviado com sucesso.")
+            
+    def getResults(self):
+        deltaTime = self.endTime - self.startTime
+        transferRate = int(self.imageSize) / deltaTime
+        if self.debug:
+            print("[LOG] Tempo levado..............{:.3f} s".format(deltaTime))
+            print("[LOG] Taxa de transferência.....{:.3f} b/s".format(transferRate))
+        self.results.append([self.imageSize, deltaTime, transferRate])
 
 def client(args):
     # Inicializa enlace... variável COM possui todos os métodos e propriedades do enlace, que funciona em threading
@@ -173,10 +276,11 @@ if __name__ == "__main__":
     argParser = argparse.ArgumentParser(description="Programa que manda e recebe um arquivo usando o Arduino.")
     argParser.add_argument("type", help="Tipo de conexão [client, server].", type=str)
     argParser.add_argument("-f", "--file", help="Arquivo a ser mandado.", type=str)
+    argParser.add_argument("-d", "--debug", help="Deve debugar o processo ou não.", type=bool)
     args = argParser.parse_args()
 
     if args.type == "client":
-        client(args)
+        client = Client(serialName, args.file, args.debug)
     elif args.type == "server":
         server(args)
     else:
