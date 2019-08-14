@@ -28,11 +28,11 @@ serialName = "/dev/ttyACM0"           # Ubuntu (variacao de)
 
 class Client():
 
-    def __init__(self, serialName, fileName, debug=False):
+    def __init__(self, serialName, debug=False):
         self.com = enlace(serialName)
         self.com.enable()
         self.debug = debug
-        self.fileName = fileName
+        self.fileName = None
         self.results = []
         if debug:
             print("[LOG] Comunicação inicializada.")
@@ -43,7 +43,7 @@ class Client():
 
         self.shouldStop = False
         while not self.shouldStop:
-            self.configure(self.fileName)
+            self.configure()
             if self.fileName != None:
                 self.emit()
                 self.getResults()
@@ -64,20 +64,19 @@ class Client():
         print("[LOG] Tempo Médio de Transferência....{:.3f} s".format(meanDeltaTime))
         print("[LOG] Taxa Média de transferência.....{:.3f} b/s".format(meanTransferRate))
         
-    def configure(self, fileName):
+    def configure(self):
         
-        if fileName is None:
-            if self.debug:
-                print("\n[LOG] Arquivo não fornecido como argumento, usando GUI.")
-            Tk().withdraw() # We don't want a full GUI, so keep the root window from appearing
-            fileName = askopenfilename() # Show an "Open" dialog box and return the path to the selected file
+        if self.debug:
+            print("\n[LOG] Arquivo não fornecido como argumento, usando GUI.")
+        Tk().withdraw() # We don't want a full GUI, so keep the root window from appearing
+        self.fileName = askopenfilename() # Show an "Open" dialog box and return the path to the selected file
 
-            if type(fileName) is tuple or fileName == "":
-                self.shouldStop = False
-                self.fileName = None
-                return None
+        if type(self.fileName) is tuple or self.fileName == "":
+            self.shouldStop = True
+            self.fileName = None
+            return None
 
-        with open(fileName, 'rb') as image:
+        with open(self.fileName, 'rb') as image:
             if self.debug:
                 print("[LOG] Arquivo encontrado. Lendo e transformando em bytearray.")
             imageFile = image.read()     
@@ -129,7 +128,9 @@ class Client():
         if self.debug:
             print("[LOG] Tempo levado..............{:.3f} s".format(deltaTime))
             print("[LOG] Taxa de transferência.....{:.3f} b/s".format(transferRate))
-        self.results.append([self.imageSize, deltaTime, transferRate])
+        self.results.append([int(self.imageSize), deltaTime, transferRate])
+
+
 
 def client(args):
     # Inicializa enlace... variável COM possui todos os métodos e propriedades do enlace, que funciona em threading
@@ -216,7 +217,7 @@ def client(args):
 
 def server(args):
     # Inicializa enlace... variável COM possui todos os métodos e propriedades do enlace, que funciona em threading
-    com = enlace(serialName) # Repare que o metodo construtor recebe um string (nome)
+    com = enlace("/dev/ttyACM1") # Repare que o metodo construtor recebe um string (nome)
     # Ativa comunicacão
     com.enable()
    
@@ -275,12 +276,11 @@ def server(args):
 if __name__ == "__main__":
     argParser = argparse.ArgumentParser(description="Programa que manda e recebe um arquivo usando o Arduino.")
     argParser.add_argument("type", help="Tipo de conexão [client, server].", type=str)
-    argParser.add_argument("-f", "--file", help="Arquivo a ser mandado.", type=str)
-    argParser.add_argument("-d", "--debug", help="Deve debugar o processo ou não.", type=bool)
+    argParser.add_argument("-d", "--debug", help="Deve debugar o processo ou não.", action="store_true")
     args = argParser.parse_args()
 
     if args.type == "client":
-        client = Client(serialName, args.file, args.debug)
+        client = Client(serialName, args.debug)
     elif args.type == "server":
         server(args)
     else:
