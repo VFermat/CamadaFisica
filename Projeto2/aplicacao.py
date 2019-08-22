@@ -121,6 +121,9 @@ class Client(Common):
             # print(self.fileBA)
 
             self.checkBytes()
+
+            # print(self.fileBA)
+
             self.buildHead()
 
             # Assemble the packet.
@@ -150,9 +153,9 @@ class Client(Common):
             self.log("Response: {}".format(self.responseCodesInverse[self.response]))
             
             self.deltaTime = self.endTime - self.startTime
-            self.bytesPerSecond = round(len(self.packet) / self.deltaTime)
+            self.throughput = round((len(self.packet) - len(self.head) - len(self.eop)) / self.deltaTime)
             self.log("Time taken: {:.3f} s".format(self.deltaTime))
-            self.log("Speed: {} b/s".format(self.bytesPerSecond))
+            self.log("Throughput: {} b/s".format(self.throughput))
 
 
     def checkBytes(self):
@@ -306,12 +309,12 @@ class Server(Common):
 
             self.findEOP()
 
-            if self.skip:
+            if not self.skip:
                 self.removeStuffedBytes()
 
-            self.respond("Success")
+                self.respond("Success")
 
-            self.saveFile()
+                self.saveFile()
 
     
     def findEOP(self):
@@ -325,15 +328,17 @@ class Server(Common):
             print("[ERROR] Could not find EOP in payload.")
             self.respond("EOP not found")
 
-        index = self.payload.find(self.eop)
-        self.payload = self.payload[:index]
 
-        leftover = self.payload[index + len(self.eop):]
-        if len(leftover) > 0:
+        index = self.payload.find(self.eop)
+        
+        leftover = self.payload[index:]
+        if len(leftover) > len(self.eop):
             self.respond("EOP in wrong place")
             self.skip = True
-            
-        self.log("EOP located in byte: {}".format(index))
+        
+        else:
+            self.payload = self.payload[:index]
+            self.log("EOP located in byte: {}".format(index))
 
 
     def removeStuffedBytes(self):
