@@ -270,7 +270,7 @@ class Server(Common):
         Runs all the logic needed to receive a file and send a response.
         """
 
-        stop  = False
+        stop = False
         while not stop:
             print()
             self.skip = False
