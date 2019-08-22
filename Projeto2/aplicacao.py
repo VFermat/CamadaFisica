@@ -40,9 +40,9 @@ class Common():
         self.eopB2 = 214
         self.eopB3 = 215
         self.eopB4 = 216
+        self.byteStuff = 0
         self.eop = bytes([self.eopB1]) + bytes([self.eopB2]) + bytes([self.eopB3]) + bytes([self.eopB4])
-
-        self.byteStuff = 0x00
+        self.stuffedEOP = bytes([self.eopB1]) + bytes([self.byteStuff]) + bytes([self.eopB2]) + bytes([self.byteStuff]) + bytes([self.eopB3]) + bytes([self.byteStuff]) + bytes([self.eopB4])
 
         self.responseCodes = {
             "Success": bytes([190]),
@@ -126,6 +126,10 @@ class Client(Common):
             # Assemble the packet.
             self.packet = self.head + self.fileBA + self.eop
 
+            # Calculate overhead
+            self.overhead = (len(self.packet)) / len(self.fileBA)
+            self.log("Overhead: {}%".format(self.overhead))
+
             # Send the data.
             self.log("Trying to send {} bytes.".format(len(self.packet)))
             self.startTime = time.time()
@@ -171,8 +175,7 @@ class Client(Common):
             
             oldSize = len(self.fileBA)
 
-            self.fileBA = self.fileBA.replace(bytes([self.eopB1, self.eopB2, self.eopB3]),
-                                              bytes([self.eopB1, self.eopB2, self.eopB3, self.byteStuff]))
+            self.fileBA = self.fileBA.replace(self.eop, self.stuffedEOP)
             
             newSize = len(self.fileBA)
             self.bytesStuffed = newSize - oldSize
@@ -273,7 +276,7 @@ class Server(Common):
             self.skip = False
 
             # Wait for a HEAD to arrive
-            self.log("Waiting for HEAD[24]...")
+            self.log("Waiting for HEAD[25]...")
             self.head, self.headSize = self.com.getData(25)
             
             # Splice from HEAD all the info needed
@@ -322,16 +325,15 @@ class Server(Common):
             print("[ERROR] Could not find EOP in payload.")
             self.respond("EOP not found")
 
-        index = self.payload.find(bytes([self.eopB1, self.eopB2, self.eopB3, self.eopB4]))
+        index = self.payload.find(self.eop)
         self.payload = self.payload[:index]
 
-        try:
-            leftover = self.payload[index + len(self.eop):]
-            if len(leftover) > 0:
-                self.respond("EOP in wrong place")
-                self.skip = True
-        except:
-            self.log("EOP located in byte: {}".format(index))
+        leftover = self.payload[index + len(self.eop):]
+        if len(leftover) > 0:
+            self.respond("EOP in wrong place")
+            self.skip = True
+            
+        self.log("EOP located in byte: {}".format(index))
 
 
     def removeStuffedBytes(self):
@@ -344,8 +346,7 @@ class Server(Common):
         
         if self.bytesStuffed > 0:
             self.log("Removing stuffed bytes.")
-            self.payload = self.payload.replace(bytes([self.eopB1, self.eopB2, self.eopB3, self.byteStuff]),
-                                                bytes([self.eopB1, self.eopB2, self.eopB3]))
+            self.payload = self.payload.replace(self.stuffedEOP, self.eop)
         
 
     def respond(self, message):
