@@ -8,6 +8,7 @@
 # Send and receice data using packets.
 #####################################################
 
+from math import ceil
 import os
 import time
 import struct
@@ -48,14 +49,16 @@ class Common():
             "Success": bytes([190]),
             "Size mismatch": bytes([191]),
             "EOP not found": bytes([192]),
-            "EOP in wrong place": bytes([193])
+            "EOP in wrong place": bytes([193]),
+            "Payload size larger than 128 bytes": bytes([194])
         }
 
         self.responseCodesInverse = {
             bytes([190]): "Success",
             bytes([191]): "Size mismatch",
             bytes([192]): "EOP not found",
-            bytes([193]): "EOP in wrong place"
+            bytes([193]): "EOP in wrong place",
+            bytes([194]): "Payload size larger than 128 bytes"
         }
 
 
@@ -99,7 +102,7 @@ class Client(Common):
         """
         super().__init__(serialName, debug)
         
-        self.bytesStuffed = 0
+        self.expectedPayloadSize = 0
 
         self.createCOM(serialName)
         self.run()
@@ -121,38 +124,62 @@ class Client(Common):
             # print(self.fileBA)
 
             self.checkBytes()
-            self.buildHead()
 
-            # Assemble the packet.
-            self.packet = self.head + self.fileBA + self.eop
+            self.numberOfPackets = ceil(len(self.fileBA) / 128)
+            self.currentPacket = 1
 
-            # Calculate overhead
-            self.overhead = (len(self.packet)) / len(self.fileBA)
-            self.log("Overhead: {}%".format(self.overhead))
+            while self.currentPacket <= self.numberOfPackets:
+                print()
 
-            # Send the data.
-            self.log("Trying to send {} bytes.".format(len(self.packet)))
-            self.startTime = time.time()
-            self.com.sendData(self.packet)
+                # Slicing the file to create the payload
+                self.payload = self.fileBA[(self.currentPacket - 1)*128 : self.currentPacket*128]
+                
+                # Building the header
+                self.buildHead()
 
-            # Wait for the data to be sent.
-            while (self.com.tx.getIsBussy()):
-                pass
+                # Assemble the packet.
+                self.packet = self.head + self.payload + self.eop
 
-            txSize = self.com.tx.getStatus()
-            self.log("Sent {} bytes.".format(txSize))
+                self.log("Packet: {}/{}".format(self.currentPacket, self.numberOfPackets))
 
-            # Wait for response
-            self.log("Waiting for server response")
-            self.response, self.responseSize = self.com.getData(1)
-            self.endTime = time.time()
-            
-            self.log("Response: {}".format(self.responseCodesInverse[self.response]))
-            
-            self.deltaTime = self.endTime - self.startTime
-            self.bytesPerSecond = round(len(self.packet) / self.deltaTime)
-            self.log("Time taken: {:.3f} s".format(self.deltaTime))
-            self.log("Speed: {} b/s".format(self.bytesPerSecond))
+                # Calculate overhead
+                self.overhead = (len(self.packet)) / len(self.fileBA)
+                self.log("Overhead: {}%".format(self.overhead))
+
+                # Send the data.
+                self.log("Trying to send {} bytes.".format(len(self.packet)))
+                self.startTime = time.time()
+                self.com.sendData(self.packet)
+
+                # Wait for the data to be sent.
+                while (self.com.tx.getIsBussy()):
+                    pass
+
+                # Log
+                txSize = self.com.tx.getStatus()
+                self.log("Sent {} bytes.".format(txSize))
+
+                # Wait for response
+                self.log("Waiting for server response")
+                self.response, self.responseSize = self.com.getData(31)
+
+                # Getting info from response's header
+                self.responseCode = self.response[:1]
+                self.responsePayloadSize = int.from_bytes(self.response[30:], "little")
+
+                # Getting response's payload and eop
+                self.responsePayload, self.responsePayloadSize = self.com.getData(self.responsePayloadSize + len(self.eop))
+
+                self.endTime = time.time()  
+                
+                self.log("Response: {}".format(self.responseCodesInverse[self.responseCode]))
+                
+                self.deltaTime = self.endTime - self.startTime
+                self.bytesPerSecond = round(len(self.packet) / self.deltaTime)
+                self.log("Time taken: {:.3f} s".format(self.deltaTime))
+                self.log("Speed: {} b/s".format(self.bytesPerSecond))
+
+                self.currentPacket += 1
 
 
     def checkBytes(self):
@@ -178,9 +205,9 @@ class Client(Common):
             self.fileBA = self.fileBA.replace(self.eop, self.stuffedEOP)
             
             newSize = len(self.fileBA)
-            self.bytesStuffed = newSize - oldSize
+            self.expectedPayloadSize = newSize - oldSize
 
-        self.log("Bytes stuffed: {} bytes.".format(self.bytesStuffed))
+        self.log("Bytes stuffed: {} bytes.".format(self.expectedPayloadSize))
 
 
     def buildHead(self):
@@ -200,14 +227,14 @@ class Client(Common):
 
         # Update the file size with the number of bytes that were stuffed
         # in the payload.
-        self.fileSize = self.fileSize + self.bytesStuffed
+        self.fileSize = self.fileSize + self.expectedPayloadSize
         self.fileSizeBA = self.fileSize.to_bytes(4, "little")
 
-        self.bytesStuffedBA = self.bytesStuffed.to_bytes(1, "little")
+        self.expectedPayloadSizeBA = self.expectedPayloadSize.to_bytes(1, "little")
 
-        # HEAD size is 25 bytes.
-        # HEAD = fileName[15] + fileSize[4] + fileExtension[5] + bytesStufed[1]
-        self.head = self.fileNameBA + self.fileSizeBA + self.fileExtensionBA + self.bytesStuffedBA
+        # HEAD size is 31 bytes.
+        # HEAD = fileName[15] + fileSize[4] + fileExtension[5] + payloadSize[1] + currentPacket[3] + numberOfPackets[3]
+        self.head = self.fileNameBA + self.fileSizeBA + self.fileExtensionBA + len(self.payload).to_bytes(1, "little") + self.currentPacket.to_bytes(3, "little") + self.numberOfPackets.to_bytes(3, "little")
 
 
     def getFile(self):
@@ -259,6 +286,8 @@ class Server(Common):
         Executed when the object is created. Used to create all needed attributes.
         """
 
+        self.fileProgress = {}
+
         super().__init__(serialName, debug)
 
         self.createCOM(serialName)
@@ -277,36 +306,42 @@ class Server(Common):
 
             # Wait for a HEAD to arrive
             self.log("Waiting for HEAD[25]...")
-            self.head, self.headSize = self.com.getData(25)
+            self.head, self.headSize = self.com.getData(31)
             
             # Splice from HEAD all the info needed
             self.fileNameBA = self.head[:15]
             self.fileSizeBA = self.head[15:19]
             self.fileExtensionBA = self.head[19:24]
-            self.bytesStuffedBA = self.head[24:]
+            self.expectedPayloadSizeBA = self.head[24:25]
+            self.currentPacketBA = self.head[25:28]
+            self.numberOfPacketsBA = self.head[28:]
 
             # Decoding info
             self.fileName = self.fileNameBA.decode("UTF-8").replace("@", "")
             self.fileSize = int.from_bytes(self.fileSizeBA, "little")
             self.fileExtension = self.fileExtensionBA.decode("UTF-8").replace("@", "")
-            self.bytesStuffed = int.from_bytes(self.bytesStuffedBA, "little")
+            self.expectedPayloadSize = int.from_bytes(self.expectedPayloadSizeBA, "little")
+            self.currentPacket = int.from_bytes(self.currentPacketBA, "little")
+            self.numberOfPackets = int.from_bytes(self.numberOfPacketsBA, "little")
 
             self.log("File name: {}".format(self.fileName))
             self.log("File size: {}".format(self.fileSize))
             self.log("File extension: {}".format(self.fileExtension))
-            self.log("Bytes stuffed on payload: {} bytes".format(self.bytesStuffed))
+            self.log("Expected payload size: {} bytes".format(self.expectedPayloadSize))
+            self.log("Packet: {}/{}".format(self.currentPacket, self.numberOfPackets))
 
             # Getting the payload
-            self.payload, self.payloadSize = self.com.getData(self.fileSize + len(self.eop))
+            self.payload, self.payloadSize = self.com.getData(self.expectedPayloadSize + len(self.eop))
 
-            if self.fileSize != len(self.payload) - len(self.eop):
-                print("[ERROR] Payload size does not match size on HEAD.")
-                self.respond("Size mismatch")
+            # Checking if the payload has the correct size
+            if self.expectedPayloadSize != len(self.payload) - len(self.eop):
+                print("[ERROR] Payload size larger than 128 bytes.")
+                self.respond("Payload size larger than 128 bytes")
                 continue
 
             self.findEOP()
 
-            if self.skip:
+            if not self.skip:
                 self.removeStuffedBytes()
 
             self.respond("Success")
@@ -324,6 +359,8 @@ class Server(Common):
         else:
             print("[ERROR] Could not find EOP in payload.")
             self.respond("EOP not found")
+            self.skip = True
+            return
 
         index = self.payload.find(self.eop)
         self.payload = self.payload[:index]
@@ -332,6 +369,7 @@ class Server(Common):
         if len(leftover) > 0:
             self.respond("EOP in wrong place")
             self.skip = True
+            return
             
         self.log("EOP located in byte: {}".format(index))
 
@@ -343,10 +381,8 @@ class Server(Common):
 
         # Checking every three bytes to see if they match the first three bytes
         # of the EOP, if they do, we remove the 0x00 after them.
-        
-        if self.bytesStuffed > 0:
-            self.log("Removing stuffed bytes.")
-            self.payload = self.payload.replace(self.stuffedEOP, self.eop)
+        self.log("Removing stuffed bytes.")
+        self.payload = self.payload.replace(self.stuffedEOP, self.eop)
         
 
     def respond(self, message):
@@ -356,10 +392,12 @@ class Server(Common):
 
         self.log("Response: {}".format(message))
         self.responseBA = self.responseCodes[message]
+        zero = 0
+        self.response = self.responseBA + zero.to_bytes(30, "little") + self.eop
 
         # Send the data.
         self.log("Trying to send {} bytes.".format(len(self.responseBA)))
-        self.com.sendData(self.responseBA)
+        self.com.sendData(self.response)
 
         # Wait for the data to be sent.
         while (self.com.tx.getIsBussy()):
@@ -374,10 +412,28 @@ class Server(Common):
         Saves the received file.
         """
 
-        with open("received_" + self.fileName + self.fileExtension, "wb") as filea:
-            filea.write(self.payload)
+        if self.fileName not in self.fileProgress:
+            self.fileProgress[self.fileName] = {
+                "name" : self.fileName,  
+                "extension" : self.fileExtension,
+                "size" : self.fileSize,
+                "currentPacket" : self.currentPacket,  
+                "totalPackets" : self.numberOfPackets,
+                "file" : self.payload
+            }
+        else:
+            if self.currentPacket == self.fileProgress[self.fileName]["currentPacket"] + 1:
+                self.fileProgress[self.fileName]["file"] += self.payload
+                self.fileProgress[self.fileName]["currentPacket"] = self.currentPacket
+                self.log("File progress updated.")
+            else:
+                self.log("Packet already received.")
 
-        self.log("File saved.")
+            if self.fileProgress[self.fileName]["currentPacket"] == self.fileProgress[self.fileName]["totalPackets"]:
+                with open("received_" + self.fileName + self.fileExtension, "wb") as filea:
+                    filea.write(self.fileProgress[self.fileName]["file"])
+
+                self.log("File saved.")
 
 
 
