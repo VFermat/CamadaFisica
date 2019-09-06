@@ -20,9 +20,7 @@ class fisica(object):
     def __init__(self, name):
         self.name        = name
         self.port        = None
-        self.baudrate    = 4000000
-        #self.baudrate    = 115200
-        #self.baudrate    = 9600
+        self.baudrate    = 115200
         self.bytesize    = serial.EIGHTBITS
         self.parity      = serial.PARITY_NONE
         self.stop        = serial.STOPBITS_ONE

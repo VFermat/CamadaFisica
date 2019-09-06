@@ -45,6 +45,13 @@ class Common():
         self.eop = bytes([self.eopB1]) + bytes([self.eopB2]) + bytes([self.eopB3]) + bytes([self.eopB4])
         self.stuffedEOP = bytes([self.eopB1]) + bytes([self.byteStuff]) + bytes([self.eopB2]) + bytes([self.byteStuff]) + bytes([self.eopB3]) + bytes([self.byteStuff]) + bytes([self.eopB4])
 
+        self.msgType1 = 1
+        self.msgType2 = 2
+        self.msgType3 = 3
+        self.msgType4 = 4
+        self.msgType5 = 5
+        self.msgType6 = 6
+
         self.responseCodes = {
             "Success": bytes([190]),
             "Size mismatch": bytes([191]),
@@ -103,6 +110,7 @@ class Client(Common):
         super().__init__(serialName, debug)
         
         self.expectedPayloadSize = 0
+        self.serverAddress = 0xA0
 
         self.createCOM(serialName)
         self.run()
@@ -116,70 +124,22 @@ class Client(Common):
         stop = False
         while not stop:
             print()
+            self.permission = False
 
             self.getFile()
-
-            # Forces byte stuffing
-            # self.fileBA = self.eop + self.eop
-            # print(self.fileBA)
 
             self.checkBytes()
 
             self.numberOfPackets = ceil(len(self.fileBA) / 128)
             self.currentPacket = 1
 
-            while self.currentPacket <= self.numberOfPackets:
-                print()
+            while not self.permission:
+                self.sendRequest()
+                self.waitForPermission()
 
-                # Slicing the file to create the payload
-                self.payload = self.fileBA[(self.currentPacket - 1)*128 : self.currentPacket*128]
-                
-                # Building the header
-                self.buildHead()
+            self.sendFile()
 
-                # Assemble the packet.
-                self.packet = self.head + self.payload + self.eop
-
-                self.log("Packet: {}/{}".format(self.currentPacket, self.numberOfPackets))
-
-                # Calculate overhead
-                self.overhead = (len(self.packet)) / len(self.fileBA)
-                self.log("Overhead: {}%".format(self.overhead))
-
-                # Send the data.
-                self.log("Trying to send {} bytes.".format(len(self.packet)))
-                self.startTime = time.time()
-                self.com.sendData(self.packet)
-
-                # Wait for the data to be sent.
-                while (self.com.tx.getIsBussy()):
-                    pass
-
-                # Log
-                txSize = self.com.tx.getStatus()
-                self.log("Sent {} bytes.".format(txSize))
-
-                # Wait for response
-                self.log("Waiting for server response")
-                self.response, self.responseSize = self.com.getData(31)
-
-                # Getting info from response's header
-                self.responseCode = self.response[:1]
-                self.responsePayloadSize = int.from_bytes(self.response[30:], "little")
-
-                # Getting response's payload and eop
-                self.responsePayload, self.responsePayloadSize = self.com.getData(self.responsePayloadSize + len(self.eop))
-
-                self.endTime = time.time()  
-                
-                self.log("Response: {}".format(self.responseCodesInverse[self.responseCode]))
-                
-                self.deltaTime = self.endTime - self.startTime
-                self.bytesPerSecond = round(len(self.packet) / self.deltaTime)
-                self.log("Time taken: {:.3f} s".format(self.deltaTime))
-                self.log("Speed: {} b/s".format(self.bytesPerSecond))
-
-                self.currentPacket += 1
+            self.log("File sent sucessfully.")
 
 
     def checkBytes(self):
@@ -215,26 +175,17 @@ class Client(Common):
         Builds the head of the packet.
         """
 
-        # Checks if we need to stuff the fileName.
-        filler = "".join(["@" for i in range(15 - len(self.fileName))])
-        filler = bytes(filler, "UTF-8")
-        self.fileNameBA = filler + bytes(self.fileName, "UTF-8")
+        # Transforming all the header info into bytes
+        msgType = self.msgType3.to_bytes(1, "little")
+        serverAddress = self.serverAddress.to_bytes(1, "little")
+        currentPacket = self.currentPacket.to_bytes(3, "little")
+        totalPackets = self.numberOfPackets.to_bytes(3, "little")
+        payloadSize = len(self.payload).to_bytes(1, "little")
+        filler = bytes([0]) * 7
 
-        # Checks if we need to stuff the fileExtension.
-        filler = "".join(["@" for i in range(5 - len(self.fileExtension))])
-        filler = bytes(filler, "UTF-8")
-        self.fileExtensionBA = filler + bytes(self.fileExtension, "UTF-8")
-
-        # Update the file size with the number of bytes that were stuffed
-        # in the payload.
-        self.fileSize = self.fileSize + self.expectedPayloadSize
-        self.fileSizeBA = self.fileSize.to_bytes(4, "little")
-
-        self.expectedPayloadSizeBA = self.expectedPayloadSize.to_bytes(1, "little")
-
-        # HEAD size is 31 bytes.
-        # HEAD = fileName[15] + fileSize[4] + fileExtension[5] + payloadSize[1] + currentPacket[3] + numberOfPackets[3]
-        self.head = self.fileNameBA + self.fileSizeBA + self.fileExtensionBA + len(self.payload).to_bytes(1, "little") + self.currentPacket.to_bytes(3, "little") + self.numberOfPackets.to_bytes(3, "little")
+        # Build header
+        # HEAD[16] = msgType[1] + serverAddress[1] + currentPacket[3] + totalPackets[3] + payloadSize[1]
+        self.head = msgType + serverAddress + currentPacket + totalPackets + payloadSize + filler
 
 
     def getFile(self):
@@ -278,6 +229,145 @@ class Client(Common):
         self.fileSizeBA = self.fileSize.to_bytes(4, "little")
         self.log("File size: {} bytes".format(self.fileSize))
     
+
+    def sendRequest(self):
+        """
+        Builds the TYPE 1 message, request the server permission to send data.
+        """
+
+        # Transforming all the header info into bytes
+        msgType = self.msgType1.to_bytes(1, "little")
+        serverAddress = self.serverAddress.to_bytes(1, "little")
+        totalPackets = self.numberOfPackets.to_bytes(3, "little")
+        payloadSize = bytes([0])
+        filler = bytes([0]) * 7
+
+        # Build header
+        # HEAD = msgType[1] + serverAddress[1] + totalPackets[3] + payloadSize[1]
+        self.head = msgType + serverAddress + totalPackets + payloadSize + filler
+
+        # Build packet
+        self.packet = self.head + self.eop
+
+        # Sending the request
+        self.com.sendData(self.packet)
+
+        # Wait for the data to be sent.
+        while (self.com.tx.getIsBussy()):
+            pass
+
+
+    def waitForPermission(self):
+        """
+        Waits for a TYPE 2 message from the server, telling the client it
+        can start sending data.
+        """
+
+        # Wait for response
+        self.log("Waiting for server to accept transmission")
+        self.response, self.responseSize = self.com.getData(16, 5)
+
+        # Response size is 0 if it gets timedout
+        if self.responseSize != 0:
+            # Parses the response
+            self.responseMsgType = int.from_bytes(self.response[:1])
+            self.responseServerAddress = int.from_bytes(self.response[1:2])
+            self.responseTotalPackets = int.from_bytes(self.response[2:5])
+            self.responsePayloadSize = int.from_bytes(self.response[5:6])
+            self.responseFiller = self.response[6:]
+            
+            self.com.rx.clearBuffer()
+            
+            self.permission = True
+
+
+    def sendFile(self):
+        """
+        Sends the file to the server using a TYPE 3 message.
+        """
+
+        while self.currentPacket <= self.numberOfPackets:
+            # Slicing the file to create the payload
+            self.payload = self.fileBA[(self.currentPacket - 1)*128 : self.currentPacket*128]
+            
+            # Building the header
+            self.buildHead()
+
+            # Assemble the packet.
+            self.packet = self.head + self.payload + self.eop
+
+            startTime = time.time()
+            now = 0
+            while now - startTime < 20:
+                # Send the data.
+                self.com.sendData(self.packet)
+
+                # Wait for the data to be sent.
+                while (self.com.tx.getIsBussy()):
+                    pass
+
+                # Wait for response
+                self.response, self.responseSize = self.com.getData(16, 5)
+                self.com.rx.clearBuffer()
+
+                # Get current timer
+                now = time.time()
+
+            # Checking if we had a timeout
+            if now - startTime >= 20:
+                self.sendTimeoutMsg()
+                print(f"[ERROR] Timeout on packet {self.currentPacket}/{self.numberOfPackets}")
+                print("[LOG] Exiting...")
+                self.com.disable()
+                exit()
+
+            else:
+                # Parses the response
+                self.responseMsgType = int.from_bytes(self.response[:1])
+                self.responseCurrentPacket = int.from_bytes(self.response[1:4])
+                self.responseTotalPackets = int.from_bytes(self.response[4:6])
+                self.responsePayloadSize = int.from_bytes(self.response[6:7])
+                self.responseFiller = self.response[7:]
+
+                if self.responseMsgType == self.msgType6:
+                    print("[ERROR] Packet {self.currentPacket} was invalid. Resending...")
+                    self.currentPacket = self.responseCurrentPacket
+                
+                elif self.responseMsgType == self.msgType4:
+                    self.log(f"Packet: {self.currentPacket}/{self.numberOfPackets}")
+                    self.currentPacket += 1
+
+                else:
+                    print(f"[ERROR] Unknown message type: {self.responseMsgType}")
+        
+
+    def sendTimeoutMsg(self):
+        """
+        Sends a TYPE 5 message to the server.
+        """
+
+        # Transforming all the header info into bytes
+        msgType = self.msgType5.to_bytes(1, "little")
+        serverAddress = self.serverAddress.to_bytes(1, "little")
+        currentPacket = self.currentPacket.to_bytes(3, "little")
+        totalPackets = self.numberOfPackets.to_bytes(3, "little")
+        payloadSize = bytes([0])
+        filler = bytes([0]) * 7
+
+        # Build header
+        # HEAD[16] = msgType[1] + serverAddress[1] + currentPacket[3] + totalPackets[3] + payloadSize[1] + filler[7]
+        self.head = msgType + serverAddress + currentPacket + totalPackets + payloadSize + filler
+
+        # Build packet
+        self.packet = self.head + self.eop
+
+        # Sending the request
+        self.com.sendData(self.packet)
+
+        # Wait for the data to be sent.
+        while (self.com.tx.getIsBussy()):
+            pass
+
 
 
 class Server(Common):
@@ -448,4 +538,4 @@ if __name__ == "__main__":
     elif args.type == "server":
         server = Server("/dev/ttyACM0", args.debug)
     else:
-        print("[ERRO] Invalid connection type.")
+        print("[ERROR] Invalid connection type.")
