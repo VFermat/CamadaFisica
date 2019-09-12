@@ -226,7 +226,7 @@ class Client(Common):
 
         if self.responseMsgType == self.msgType6:
             self.log(f"[ERROR] Packet {self.responseLastPacket} was invalid. Resending...", "client")
-            self.currentPacket = self.responseLastPacket
+            self.currentPacket = self.responseLastPacket + 1
         
         elif self.responseMsgType == self.msgType5:
             self.log(f"Timeout on packet {self.responseLastPacket}. Aborting...", "client")

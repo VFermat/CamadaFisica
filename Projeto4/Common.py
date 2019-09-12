@@ -2,6 +2,7 @@ from time import localtime
 from enlace import enlace
 
 
+
 class Common():
     def __init__(self, serialName, debug):
         """
@@ -63,23 +64,23 @@ class Common():
         hour = timestamp.tm_hour
         minuto = timestamp.tm_min
         sec = timestamp.tm_sec
-        date = f"{year}/{month}/{day} --- {hour}:{minuto}:{sec}"
+        date = f"{year}/{month}/{day} || {hour}:{minuto}:{sec}"
 
         if "ERROR" not in message:
             message = "[LOG] " + message
         if self.debug:
-            print(message + f"// {date}")
+            print(message + f" || {date}")
             if caller == "client":
                 with open("log/client.log", "a") as file:
-                    file.write(f"{message} // {date}\n")
+                    file.write(f"{message} || {date}\n")
             elif caller == "server":
                 with open("log/server.log", "a") as file:
-                    file.write(f"{message} // {date}\n")
+                    file.write(f"{message} || {date}\n")
             else:
                 with open("log/client.log", "a") as file:
-                    file.write(f"{message} // {date}\n")
+                    file.write(f"{message} || {date}\n")
                 with open("log/server.log", "a") as file:
-                    file.write(f"{message} // {date}\n")
+                    file.write(f"{message} || {date}\n")
 
 
     def sendType5(self, currentPacket, numberOfPackets):

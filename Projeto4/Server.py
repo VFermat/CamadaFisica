@@ -208,7 +208,8 @@ class Server(Common):
         while (self.com.tx.getIsBussy()):
             pass
 
-        self.log("Sent TYPE6.", "server")
+        self.com.rx.clearBuffer()
+        self.log(f"Sent TYPE6. Expected packet is {self.expectedPacket}", "server")
 
 
     def sendType4(self):
