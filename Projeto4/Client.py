@@ -17,7 +17,7 @@ class Client(Common):
         self.expectedPayloadSize = 0
         self.serverAddress = 0xA0
 
-        self.createCOM(serialName)
+        self.createCOM(serialName, "client")
         self.run()
         
 
@@ -188,7 +188,6 @@ class Client(Common):
             while not self.receivedResponse:
                 # Send the data.
                 self.com.sendData(self.packet)
-                self.log(f"PACKET SENT: {self.packet}", "")
 
                 # Wait for the data to be sent.
                 while (self.com.tx.getIsBussy()):
@@ -209,8 +208,7 @@ class Client(Common):
 
                 # Checking if we had a timeout
                 if now - startTime >= 20:
-                    self.sendType5()
-                    self.log(f"[ERROR] Timeout on packet {self.currentPacket}/{self.numberOfPackets}. Exiting...", "client")
+                    self.sendType5(self.currentPacket, self.numberOfPackets)
                     self.com.disable()
                     exit()
 

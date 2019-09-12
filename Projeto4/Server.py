@@ -15,7 +15,7 @@ class Server(Common):
 
         super().__init__(serialName, debug)
 
-        self.createCOM(serialName)
+        self.createCOM(serialName, "server")
         self.run()
 
     
@@ -114,27 +114,40 @@ class Server(Common):
 
 
     def receiveFile(self):
+        """
+        Receives TYPE3 messages and responds with TYPE4/TYPE5/TYPE6.
+        """
+
         while self.currentPacket < self.numberOfPackets:
-            # Wait for header
-            self.log("Waiting for header of TYPE3.", "server")
-            self.head, self.headSize = self.com.getData(16, 3)
+            startTime = time.time()
 
-            # Check if we received a message
-            if self.headSize != 0:
-                self.parseHead()
+            received = False
+            while not received:
+                # Wait for header
+                self.log("Waiting for header of TYPE3.", "server")
+                self.head, self.headSize = self.com.getData(16, 1)
 
-                self.payload, self.payloadSize = self.com.getData(self.expectedPayloadSize + len(self.eop), 3)
+                # # Check if we received a message
+                if self.headSize != 0:
+                    self.parseHead()
 
-                self.log(f"PACKET RECEIVED: {self.head + self.payload}", "")
+                    self.payload, self.payloadSize = self.com.getData(self.expectedPayloadSize + len(self.eop), 1)
 
-                self.parsePayload()
+                    self.parsePayload()
 
-                self.updateFileProgress()
+                    self.updateFileProgress()
 
-                self.sendType4()
+                    self.sendType4()
 
-            # Clear the buffer
-            self.com.rx.clearBuffer()
+                    received = True
+
+                if time.time() - startTime > 20:
+                    self.sendType5(self.currentPacket, self.numberOfPackets)
+                    self.idle = True
+                    return
+
+                if time.time() - startTime > 2:
+                    self.sendType6()
 
 
     def parseHead(self):

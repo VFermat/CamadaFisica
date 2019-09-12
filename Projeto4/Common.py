@@ -1,5 +1,5 @@
+from time import localtime
 from enlace import enlace
-
 
 
 class Common():
@@ -15,8 +15,10 @@ class Common():
         self.eopB3 = 215
         self.eopB4 = 216
         self.byteStuff = 0
-        self.eop = bytes([self.eopB1]) + bytes([self.eopB2]) + bytes([self.eopB3]) + bytes([self.eopB4])
-        self.stuffedEOP = bytes([self.eopB1]) + bytes([self.byteStuff]) + bytes([self.eopB2]) + bytes([self.byteStuff]) + bytes([self.eopB3]) + bytes([self.byteStuff]) + bytes([self.eopB4])
+        self.eop = bytes([self.eopB1]) + bytes([self.eopB2]) + \
+            bytes([self.eopB3]) + bytes([self.eopB4])
+        self.stuffedEOP = bytes([self.eopB1]) + bytes([self.byteStuff]) + bytes([self.eopB2]) + bytes(
+            [self.byteStuff]) + bytes([self.eopB3]) + bytes([self.byteStuff]) + bytes([self.eopB4])
 
         self.msgType1 = 1
         self.msgType2 = 2
@@ -26,7 +28,7 @@ class Common():
         self.msgType6 = 6
 
 
-    def createCOM(self, serialName):
+    def createCOM(self, serialName, connectionType):
         """
         Creates the COM attributes, which handles access to the serial port.
 
@@ -34,18 +36,17 @@ class Common():
         and try to connect to the available ports.
         """
 
-        self.log("Trying to establish connection to the serial port.", "")
-        
+        self.log("Trying to establish connection to the serial port.", connectionType)
 
         try:
             self.com = enlace(serialName)
         except:
-            print("[ERROR] Could not connect to the serial port.")
+            self.log("[ERROR] Could not connect to the serial port.", connectionType)
             exit(0)
 
         self.com.enable()
-        self.log("Connection to the serial port established.", "")
-        self.log("Port used: {}".format(self.com.fisica.name), "")
+        self.log("Connection to the serial port established.", connectionType)
+        self.log("Port used: {}".format(self.com.fisica.name), connectionType)
 
 
     def log(self, message, caller):
@@ -54,24 +55,34 @@ class Common():
         if the debug argument is given.
         """
 
+        # Get current timestamp and parse it
+        timestamp = localtime()
+        year = timestamp.tm_year
+        month = timestamp.tm_mon
+        day = timestamp.tm_mday
+        hour = timestamp.tm_hour
+        minuto = timestamp.tm_min
+        sec = timestamp.tm_sec
+        date = f"{year}/{month}/{day} --- {hour}:{minuto}:{sec}"
+
         if "ERROR" not in message:
             message = "[LOG] " + message
         if self.debug:
-            print(message)
+            print(message + f"// {date}")
             if caller == "client":
                 with open("log/client.log", "a") as file:
-                    file.write(f"{message}\n")
+                    file.write(f"{message} // {date}\n")
             elif caller == "server":
                 with open("log/server.log", "a") as file:
-                    file.write(f"{message}\n")
+                    file.write(f"{message} // {date}\n")
             else:
                 with open("log/client.log", "a") as file:
-                    file.write(f"{message}\n")
+                    file.write(f"{message} // {date}\n")
                 with open("log/server.log", "a") as file:
-                    file.write(f"{message}\n")
+                    file.write(f"{message} // {date}\n")
 
 
-    def sendType5(self):
+    def sendType5(self, currentPacket, numberOfPackets):
         """
         Sends a TYPE 5 message, which indicates there was a timeout.
         """
@@ -86,4 +97,4 @@ class Common():
         while (self.com.tx.getIsBussy()):
             pass
 
-        self.log("Timeout.", "")
+        self.log(f"Timeout on packet {currentPacket}/{numberOfPackets}.", "")
