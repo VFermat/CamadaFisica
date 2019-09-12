@@ -54,7 +54,6 @@ class enlace(object):
         """ Get n data over the enlace interface
         Return the byte array and the size of the buffer
         """
-        print("[LOG] Trying to read {} bytes.".format(size))
         data = self.rx.getNData(size, timer)
        
         return(data, len(data))
