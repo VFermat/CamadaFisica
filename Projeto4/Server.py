@@ -147,7 +147,7 @@ class Server(Common):
                     return
 
                 if time.time() - startTime > 2:
-                    self.sendType6()
+                    self.sendType4()
 
 
     def parseHead(self):

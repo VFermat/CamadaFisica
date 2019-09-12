@@ -34,6 +34,8 @@ class Client(Common):
 
             self.checkBytes()
 
+            startTime = time.time()
+
             while not self.permission:
                 self.sendType1()
                 self.waitForType2()
@@ -41,6 +43,11 @@ class Client(Common):
             self.sendFile()
 
             self.log("File sent sucessfully.", "client")
+
+            endTime = time.time()
+
+            self.throughput = (self.fileSize / (endTime - startTime)) / 1000
+            self.log(f"Throughput:  {self.throughput} kb/s.", "client")
 
 
     def checkBytes(self):
