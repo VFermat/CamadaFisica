@@ -4034,3 +4034,588 @@
 [LOG] Sent TYPE3. Packet 244/301. || 2019/9/12 || 14:43:2
 [LOG] Waiting for TYPE4. || 2019/9/12 || 14:43:2
 [LOG] Sent TYPE3. Packet 245/301. || 2019/9/12 || 14:43:2
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 11:40:25
+[ERROR] Could not connect to the serial port. || 2019/9/24 || 11:40:25
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 11:42:8
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 11:53:41
+[LOG] Connection to the serial port established. || 2019/9/24 || 11:53:41
+[LOG] Port used: /dev/ttyACM1 || 2019/9/24 || 11:53:41
+[ERROR] No file selected. Aborting. || 2019/9/24 || 11:54:5
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 11:55:19
+[LOG] Connection to the serial port established. || 2019/9/24 || 11:55:19
+[LOG] Port used: /dev/ttyACM1 || 2019/9/24 || 11:55:19
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/foreveralone.jpg || 2019/9/24 || 11:55:27
+[LOG] File size: 33719 bytes || 2019/9/24 || 11:55:27
+[LOG] Sent TYPE1. || 2019/9/24 || 11:55:27
+[LOG] Waiting for TYPE2. || 2019/9/24 || 11:55:27
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 11:57:11
+[LOG] Connection to the serial port established. || 2019/9/24 || 11:57:11
+[LOG] Port used: /dev/ttyACM1 || 2019/9/24 || 11:57:11
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/foreveralone.jpg || 2019/9/24 || 11:57:14
+[LOG] File size: 33719 bytes || 2019/9/24 || 11:57:14
+[LOG] Sent TYPE1. || 2019/9/24 || 11:57:14
+[LOG] Waiting for TYPE2. || 2019/9/24 || 11:57:14
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 11:57:41
+[LOG] Connection to the serial port established. || 2019/9/24 || 11:57:41
+[LOG] Port used: /dev/ttyACM1 || 2019/9/24 || 11:57:41
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/foreveralone.jpg || 2019/9/24 || 11:57:44
+[LOG] File size: 33719 bytes || 2019/9/24 || 11:57:44
+[LOG] Sent TYPE1. || 2019/9/24 || 11:57:44
+[LOG] Waiting for TYPE2. || 2019/9/24 || 11:57:44
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 11:57:52
+[LOG] Connection to the serial port established. || 2019/9/24 || 11:57:52
+[LOG] Port used: /dev/ttyACM1 || 2019/9/24 || 11:57:52
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/Common.py || 2019/9/24 || 11:57:56
+[LOG] File size: 3234 bytes || 2019/9/24 || 11:57:57
+[LOG] Sent TYPE1. || 2019/9/24 || 11:57:57
+[LOG] Waiting for TYPE2. || 2019/9/24 || 11:57:57
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 11:58:43
+[LOG] Connection to the serial port established. || 2019/9/24 || 11:58:43
+[LOG] Port used: /dev/ttyACM1 || 2019/9/24 || 11:58:43
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/Common.py || 2019/9/24 || 11:58:46
+[LOG] File size: 3234 bytes || 2019/9/24 || 11:58:46
+[LOG] Sent TYPE1. || 2019/9/24 || 11:58:46
+[LOG] Waiting for TYPE2. || 2019/9/24 || 11:58:46
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 12:2:19
+[LOG] Connection to the serial port established. || 2019/9/24 || 12:2:19
+[LOG] Port used: /dev/ttyACM1 || 2019/9/24 || 12:2:19
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/Common.py || 2019/9/24 || 12:2:22
+[LOG] File size: 3234 bytes || 2019/9/24 || 12:2:22
+[LOG] Sent TYPE1. || 2019/9/24 || 12:2:22
+[LOG] Waiting for TYPE2. || 2019/9/24 || 12:2:22
+[LOG] Sent TYPE3. Packet 1/26. || 2019/9/24 || 12:2:22
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:2:22
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 12:3:49
+[LOG] Connection to the serial port established. || 2019/9/24 || 12:3:49
+[LOG] Port used: /dev/ttyACM1 || 2019/9/24 || 12:3:49
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/foreveralone.jpg || 2019/9/24 || 12:3:56
+[LOG] File size: 33719 bytes || 2019/9/24 || 12:3:56
+[LOG] Sent TYPE1. || 2019/9/24 || 12:3:56
+[LOG] Waiting for TYPE2. || 2019/9/24 || 12:3:56
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 12:4:23
+[LOG] Connection to the serial port established. || 2019/9/24 || 12:4:23
+[LOG] Port used: /dev/ttyACM1 || 2019/9/24 || 12:4:23
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/interfaceFisica.py || 2019/9/24 || 12:4:27
+[LOG] File size: 3015 bytes || 2019/9/24 || 12:4:27
+[LOG] Sent TYPE1. || 2019/9/24 || 12:4:27
+[LOG] Waiting for TYPE2. || 2019/9/24 || 12:4:27
+[LOG] Sent TYPE3. Packet 1/24. || 2019/9/24 || 12:4:27
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:27
+[ERROR] Packet 1 was invalid. Resending... || 2019/9/24 || 12:4:27
+[LOG] Sent TYPE3. Packet 2/24. || 2019/9/24 || 12:4:27
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:27
+[LOG] Sent TYPE3. Packet 3/24. || 2019/9/24 || 12:4:27
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:27
+[ERROR] Packet 2 was invalid. Resending... || 2019/9/24 || 12:4:27
+[LOG] Sent TYPE3. Packet 3/24. || 2019/9/24 || 12:4:27
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:27
+[LOG] Sent TYPE3. Packet 4/24. || 2019/9/24 || 12:4:27
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:27
+[ERROR] Packet 2 was invalid. Resending... || 2019/9/24 || 12:4:27
+[LOG] Sent TYPE3. Packet 3/24. || 2019/9/24 || 12:4:27
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:28
+[ERROR] Packet 2 was invalid. Resending... || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE3. Packet 3/24. || 2019/9/24 || 12:4:28
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:28
+[ERROR] Packet 2 was invalid. Resending... || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE3. Packet 3/24. || 2019/9/24 || 12:4:28
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE3. Packet 4/24. || 2019/9/24 || 12:4:28
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:28
+[ERROR] Packet 3 was invalid. Resending... || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE3. Packet 4/24. || 2019/9/24 || 12:4:28
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE3. Packet 5/24. || 2019/9/24 || 12:4:28
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:28
+[ERROR] Packet 3 was invalid. Resending... || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE3. Packet 4/24. || 2019/9/24 || 12:4:28
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:28
+[ERROR] Packet 3 was invalid. Resending... || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE3. Packet 4/24. || 2019/9/24 || 12:4:28
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:28
+[ERROR] Packet 3 was invalid. Resending... || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE3. Packet 4/24. || 2019/9/24 || 12:4:28
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:28
+[ERROR] Packet 3 was invalid. Resending... || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE3. Packet 4/24. || 2019/9/24 || 12:4:28
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE3. Packet 5/24. || 2019/9/24 || 12:4:28
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:28
+[ERROR] Packet 5 was invalid. Resending... || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE3. Packet 6/24. || 2019/9/24 || 12:4:29
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:29
+[ERROR] Packet 5 was invalid. Resending... || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE3. Packet 6/24. || 2019/9/24 || 12:4:29
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE3. Packet 7/24. || 2019/9/24 || 12:4:29
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:29
+[ERROR] Packet 4 was invalid. Resending... || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE3. Packet 5/24. || 2019/9/24 || 12:4:29
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE3. Packet 6/24. || 2019/9/24 || 12:4:29
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:29
+[ERROR] Packet 4 was invalid. Resending... || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE3. Packet 5/24. || 2019/9/24 || 12:4:29
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:29
+[ERROR] Packet 4 was invalid. Resending... || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE3. Packet 5/24. || 2019/9/24 || 12:4:29
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:29
+[ERROR] Packet 4 was invalid. Resending... || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE3. Packet 5/24. || 2019/9/24 || 12:4:29
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:29
+[ERROR] Packet 4 was invalid. Resending... || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE3. Packet 5/24. || 2019/9/24 || 12:4:29
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE3. Packet 6/24. || 2019/9/24 || 12:4:29
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:29
+[ERROR] Packet 5 was invalid. Resending... || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE3. Packet 6/24. || 2019/9/24 || 12:4:29
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE3. Packet 7/24. || 2019/9/24 || 12:4:29
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:29
+[ERROR] Packet 5 was invalid. Resending... || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE3. Packet 6/24. || 2019/9/24 || 12:4:29
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:30
+[ERROR] Packet 5 was invalid. Resending... || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE3. Packet 6/24. || 2019/9/24 || 12:4:30
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE3. Packet 7/24. || 2019/9/24 || 12:4:30
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:30
+[ERROR] Packet 5 was invalid. Resending... || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE3. Packet 6/24. || 2019/9/24 || 12:4:30
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:30
+[ERROR] Packet 5 was invalid. Resending... || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE3. Packet 6/24. || 2019/9/24 || 12:4:30
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:30
+[ERROR] Packet 5 was invalid. Resending... || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE3. Packet 6/24. || 2019/9/24 || 12:4:30
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:30
+[ERROR] Packet 5 was invalid. Resending... || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE3. Packet 6/24. || 2019/9/24 || 12:4:30
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE3. Packet 7/24. || 2019/9/24 || 12:4:30
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:30
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE3. Packet 7/24. || 2019/9/24 || 12:4:30
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE3. Packet 8/24. || 2019/9/24 || 12:4:30
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:30
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE3. Packet 8/24. || 2019/9/24 || 12:4:31
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:31
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:31
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE3. Packet 7/24. || 2019/9/24 || 12:4:31
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:31
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE3. Packet 7/24. || 2019/9/24 || 12:4:31
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE3. Packet 8/24. || 2019/9/24 || 12:4:31
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:31
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE3. Packet 7/24. || 2019/9/24 || 12:4:31
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:31
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE3. Packet 7/24. || 2019/9/24 || 12:4:31
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE3. Packet 8/24. || 2019/9/24 || 12:4:31
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:31
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE3. Packet 7/24. || 2019/9/24 || 12:4:31
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:31
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE3. Packet 7/24. || 2019/9/24 || 12:4:32
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:32
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE3. Packet 7/24. || 2019/9/24 || 12:4:32
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:32
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE3. Packet 7/24. || 2019/9/24 || 12:4:32
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE3. Packet 8/24. || 2019/9/24 || 12:4:32
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:32
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:32
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE3. Packet 10/24. || 2019/9/24 || 12:4:32
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:32
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:32
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:32
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:32
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:32
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:32
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:32
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:32
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE3. Packet 10/24. || 2019/9/24 || 12:4:32
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:32
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:33
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:33
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:33
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:33
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:33
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:33
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:33
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE3. Packet 10/24. || 2019/9/24 || 12:4:33
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:33
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:33
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:33
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:33
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:33
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:33
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE3. Packet 10/24. || 2019/9/24 || 12:4:33
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:33
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE3. Packet 8/24. || 2019/9/24 || 12:4:33
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:33
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE3. Packet 8/24. || 2019/9/24 || 12:4:34
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:34
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:34
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE3. Packet 8/24. || 2019/9/24 || 12:4:34
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:34
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE3. Packet 8/24. || 2019/9/24 || 12:4:34
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:34
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:34
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE3. Packet 8/24. || 2019/9/24 || 12:4:34
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:34
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE3. Packet 8/24. || 2019/9/24 || 12:4:34
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:34
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE3. Packet 8/24. || 2019/9/24 || 12:4:34
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:34
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE3. Packet 8/24. || 2019/9/24 || 12:4:34
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:34
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:34
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE3. Packet 8/24. || 2019/9/24 || 12:4:35
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:35
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE3. Packet 8/24. || 2019/9/24 || 12:4:35
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:35
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE3. Packet 8/24. || 2019/9/24 || 12:4:35
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE3. Packet 9/24. || 2019/9/24 || 12:4:35
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:35
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE3. Packet 10/24. || 2019/9/24 || 12:4:35
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE3. Packet 11/24. || 2019/9/24 || 12:4:35
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:35
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE3. Packet 10/24. || 2019/9/24 || 12:4:35
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:35
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE3. Packet 10/24. || 2019/9/24 || 12:4:35
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:35
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE3. Packet 10/24. || 2019/9/24 || 12:4:35
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:35
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE3. Packet 10/24. || 2019/9/24 || 12:4:35
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:4:35
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 12:16:37
+[LOG] Connection to the serial port established. || 2019/9/24 || 12:16:37
+[LOG] Port used: /dev/ttyACM1 || 2019/9/24 || 12:16:37
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/enlaceRx.py || 2019/9/24 || 12:16:41
+[LOG] File size: 2964 bytes || 2019/9/24 || 12:16:41
+[LOG] Sent TYPE1. || 2019/9/24 || 12:16:41
+[LOG] Waiting for TYPE2. || 2019/9/24 || 12:16:41
+[LOG] Timeout on packet 0/24. || 2019/9/24 || 12:17:2
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 12:17:6
+[LOG] Connection to the serial port established. || 2019/9/24 || 12:17:6
+[LOG] Port used: /dev/ttyACM1 || 2019/9/24 || 12:17:6
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/enlaceTx.py || 2019/9/24 || 12:17:8
+[LOG] File size: 2307 bytes || 2019/9/24 || 12:17:8
+[LOG] Sent TYPE1. || 2019/9/24 || 12:17:8
+[LOG] Waiting for TYPE2. || 2019/9/24 || 12:17:8
+[LOG] Sent TYPE1. || 2019/9/24 || 12:17:8
+[LOG] Waiting for TYPE2. || 2019/9/24 || 12:17:8
+[LOG] Sent TYPE1. || 2019/9/24 || 12:17:9
+[LOG] Waiting for TYPE2. || 2019/9/24 || 12:17:9
+[LOG] Sent TYPE1. || 2019/9/24 || 12:17:9
+[LOG] Waiting for TYPE2. || 2019/9/24 || 12:17:9
+[LOG] Sent TYPE1. || 2019/9/24 || 12:17:9
+[LOG] Waiting for TYPE2. || 2019/9/24 || 12:17:9
+[LOG] Sent TYPE1. || 2019/9/24 || 12:17:9
+[LOG] Waiting for TYPE2. || 2019/9/24 || 12:17:9
+[LOG] Sent TYPE1. || 2019/9/24 || 12:17:9
+[LOG] Waiting for TYPE2. || 2019/9/24 || 12:17:9
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 12:17:17
+[LOG] Connection to the serial port established. || 2019/9/24 || 12:17:17
+[LOG] Port used: /dev/ttyACM1 || 2019/9/24 || 12:17:17
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/enlaceTx.py || 2019/9/24 || 12:17:19
+[LOG] File size: 2307 bytes || 2019/9/24 || 12:17:19
+[LOG] Sent TYPE1. || 2019/9/24 || 12:17:19
+[LOG] Waiting for TYPE2. || 2019/9/24 || 12:17:19
+[LOG] Sent TYPE3. Packet 1/19. || 2019/9/24 || 12:17:19
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:19
+[ERROR] Packet 1 was invalid. Resending... || 2019/9/24 || 12:17:19
+[LOG] Sent TYPE3. Packet 2/19. || 2019/9/24 || 12:17:19
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:19
+[LOG] Sent TYPE3. Packet 3/19. || 2019/9/24 || 12:17:20
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:20
+[ERROR] Packet 2 was invalid. Resending... || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE3. Packet 3/19. || 2019/9/24 || 12:17:20
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE3. Packet 4/19. || 2019/9/24 || 12:17:20
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:20
+[ERROR] Packet 2 was invalid. Resending... || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE3. Packet 3/19. || 2019/9/24 || 12:17:20
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:20
+[ERROR] Packet 2 was invalid. Resending... || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE3. Packet 3/19. || 2019/9/24 || 12:17:20
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:20
+[ERROR] Packet 2 was invalid. Resending... || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE3. Packet 3/19. || 2019/9/24 || 12:17:20
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:20
+[ERROR] Packet 2 was invalid. Resending... || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE3. Packet 3/19. || 2019/9/24 || 12:17:20
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE3. Packet 4/19. || 2019/9/24 || 12:17:20
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:20
+[ERROR] Packet 3 was invalid. Resending... || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE3. Packet 4/19. || 2019/9/24 || 12:17:20
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE3. Packet 5/19. || 2019/9/24 || 12:17:20
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:20
+[ERROR] Packet 3 was invalid. Resending... || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE3. Packet 4/19. || 2019/9/24 || 12:17:20
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:20
+[ERROR] Packet 3 was invalid. Resending... || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE3. Packet 4/19. || 2019/9/24 || 12:17:20
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:20
+[ERROR] Packet 3 was invalid. Resending... || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE3. Packet 4/19. || 2019/9/24 || 12:17:21
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:21
+[ERROR] Packet 3 was invalid. Resending... || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE3. Packet 4/19. || 2019/9/24 || 12:17:21
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE3. Packet 5/19. || 2019/9/24 || 12:17:21
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:21
+[ERROR] Packet 5 was invalid. Resending... || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE3. Packet 6/19. || 2019/9/24 || 12:17:21
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:21
+[ERROR] Packet 5 was invalid. Resending... || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE3. Packet 6/19. || 2019/9/24 || 12:17:21
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE3. Packet 7/19. || 2019/9/24 || 12:17:21
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:21
+[ERROR] Packet 4 was invalid. Resending... || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE3. Packet 5/19. || 2019/9/24 || 12:17:21
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE3. Packet 6/19. || 2019/9/24 || 12:17:21
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:21
+[ERROR] Packet 4 was invalid. Resending... || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE3. Packet 5/19. || 2019/9/24 || 12:17:21
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:21
+[ERROR] Packet 4 was invalid. Resending... || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE3. Packet 5/19. || 2019/9/24 || 12:17:21
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE3. Packet 6/19. || 2019/9/24 || 12:17:21
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:22
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE3. Packet 7/19. || 2019/9/24 || 12:17:22
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:22
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE3. Packet 7/19. || 2019/9/24 || 12:17:22
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE3. Packet 8/19. || 2019/9/24 || 12:17:22
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:22
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE3. Packet 7/19. || 2019/9/24 || 12:17:22
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:22
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE3. Packet 7/19. || 2019/9/24 || 12:17:22
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE3. Packet 8/19. || 2019/9/24 || 12:17:22
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:22
+[ERROR] Packet 5 was invalid. Resending... || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE3. Packet 6/19. || 2019/9/24 || 12:17:22
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE3. Packet 7/19. || 2019/9/24 || 12:17:22
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:22
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE3. Packet 7/19. || 2019/9/24 || 12:17:22
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE3. Packet 8/19. || 2019/9/24 || 12:17:22
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:22
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE3. Packet 8/19. || 2019/9/24 || 12:17:22
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE3. Packet 9/19. || 2019/9/24 || 12:17:22
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:22
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE3. Packet 8/19. || 2019/9/24 || 12:17:23
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:23
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE3. Packet 8/19. || 2019/9/24 || 12:17:23
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE3. Packet 9/19. || 2019/9/24 || 12:17:23
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:23
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE3. Packet 8/19. || 2019/9/24 || 12:17:23
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:23
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE3. Packet 8/19. || 2019/9/24 || 12:17:23
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE3. Packet 9/19. || 2019/9/24 || 12:17:23
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:23
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE3. Packet 9/19. || 2019/9/24 || 12:17:23
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE3. Packet 10/19. || 2019/9/24 || 12:17:23
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:23
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE3. Packet 10/19. || 2019/9/24 || 12:17:23
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE3. Packet 11/19. || 2019/9/24 || 12:17:23
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:23
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE3. Packet 9/19. || 2019/9/24 || 12:17:23
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:24
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE3. Packet 9/19. || 2019/9/24 || 12:17:24
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE3. Packet 10/19. || 2019/9/24 || 12:17:24
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:24
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE3. Packet 9/19. || 2019/9/24 || 12:17:24
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:24
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE3. Packet 9/19. || 2019/9/24 || 12:17:24
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:24
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE3. Packet 9/19. || 2019/9/24 || 12:17:24
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:24
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE3. Packet 9/19. || 2019/9/24 || 12:17:24
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE3. Packet 10/19. || 2019/9/24 || 12:17:24
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:24
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE3. Packet 9/19. || 2019/9/24 || 12:17:24
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:24
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE3. Packet 9/19. || 2019/9/24 || 12:17:24
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:24
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE3. Packet 9/19. || 2019/9/24 || 12:17:24
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:24
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE3. Packet 9/19. || 2019/9/24 || 12:17:25
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE3. Packet 10/19. || 2019/9/24 || 12:17:25
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:25
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE3. Packet 10/19. || 2019/9/24 || 12:17:25
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:25
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE3. Packet 10/19. || 2019/9/24 || 12:17:25
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE3. Packet 11/19. || 2019/9/24 || 12:17:25
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:25
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE3. Packet 10/19. || 2019/9/24 || 12:17:25
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:25
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE3. Packet 10/19. || 2019/9/24 || 12:17:25
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE3. Packet 11/19. || 2019/9/24 || 12:17:25
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:25
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE3. Packet 10/19. || 2019/9/24 || 12:17:25
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:25
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE3. Packet 10/19. || 2019/9/24 || 12:17:25
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE3. Packet 11/19. || 2019/9/24 || 12:17:25
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:25
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE3. Packet 10/19. || 2019/9/24 || 12:17:25
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:25
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:17:26
+[LOG] Sent TYPE3. Packet 10/19. || 2019/9/24 || 12:17:26
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:26
+[LOG] Sent TYPE3. Packet 11/19. || 2019/9/24 || 12:17:26
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:26
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:17:26
+[LOG] Sent TYPE3. Packet 10/19. || 2019/9/24 || 12:17:26
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:26
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:17:26
+[LOG] Sent TYPE3. Packet 10/19. || 2019/9/24 || 12:17:26
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:26
+[LOG] Sent TYPE3. Packet 11/19. || 2019/9/24 || 12:17:26
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:17:26
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/24 || 12:17:26
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 12:18:40
+[LOG] Connection to the serial port established. || 2019/9/24 || 12:18:40
+[LOG] Port used: /dev/ttyACM1 || 2019/9/24 || 12:18:40
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/enlaceTx.py || 2019/9/24 || 12:18:44
+[LOG] File size: 2307 bytes || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE1. || 2019/9/24 || 12:18:44
+[LOG] Waiting for TYPE2. || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE3. Packet 1/19. || 2019/9/24 || 12:18:44
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE3. Packet 2/19. || 2019/9/24 || 12:18:44
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE3. Packet 3/19. || 2019/9/24 || 12:18:44
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE3. Packet 4/19. || 2019/9/24 || 12:18:44
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE3. Packet 5/19. || 2019/9/24 || 12:18:44
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE3. Packet 6/19. || 2019/9/24 || 12:18:44
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE3. Packet 7/19. || 2019/9/24 || 12:18:44
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE3. Packet 8/19. || 2019/9/24 || 12:18:45
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE3. Packet 9/19. || 2019/9/24 || 12:18:45
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE3. Packet 10/19. || 2019/9/24 || 12:18:45
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE3. Packet 11/19. || 2019/9/24 || 12:18:45
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE3. Packet 12/19. || 2019/9/24 || 12:18:45
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE3. Packet 13/19. || 2019/9/24 || 12:18:45
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE3. Packet 14/19. || 2019/9/24 || 12:18:45
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE3. Packet 15/19. || 2019/9/24 || 12:18:45
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE3. Packet 16/19. || 2019/9/24 || 12:18:45
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE3. Packet 17/19. || 2019/9/24 || 12:18:45
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE3. Packet 18/19. || 2019/9/24 || 12:18:45
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE3. Packet 19/19. || 2019/9/24 || 12:18:46
+[LOG] Waiting for TYPE4. || 2019/9/24 || 12:18:46
+[LOG] File sent sucessfully. || 2019/9/24 || 12:18:46
+[LOG] Throughput:  1.1777942471965146 kb/s. || 2019/9/24 || 12:18:46
+[ERROR] No file selected. Aborting. || 2019/9/24 || 12:18:53

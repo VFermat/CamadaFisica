@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 #####################################################
 # Camada Física da Computação
 # Henry Rocha e Vitor Eller

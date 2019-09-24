@@ -1,3 +1,12 @@
+#####################################################
+# Camada Física da Computação
+# Henry Rocha e Vitor Eller
+# 18/08/2019
+# Send and receice data using packets.
+#####################################################
+
+
+
 from time import localtime
 from enlace import enlace
 

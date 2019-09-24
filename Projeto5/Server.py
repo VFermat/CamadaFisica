@@ -1,5 +1,15 @@
+#####################################################
+# Camada Física da Computação
+# Henry Rocha e Vitor Eller
+# 18/08/2019
+# Send and receice data using packets.
+#####################################################
+
+
+
 import time
 from Common import Common
+from PyCRC.CRC16 import CRC16
 
 
 
@@ -186,8 +196,23 @@ class Server(Common):
             return
 
         self.findEOP()
+
+        self.checkCrc()
+        self.payload = self.payload[:-2]
         
         self.removeStuffedBytes()
+
+    
+    def checkCrc(self):
+        """
+        Checks if message is correct
+        """
+        
+        crc = CRC16().calculate(bytes(self.payload))
+        if crc != 0:
+            self.log("[ERROR] Wrong CRC.", "server")
+            self.sendType6()
+            return
 
 
     def sendType6(self):

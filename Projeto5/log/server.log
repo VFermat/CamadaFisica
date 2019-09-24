@@ -5145,3 +5145,860 @@
 [LOG] Waiting for header of TYPE3. || 2019/9/12 || 14:43:0
 [ERROR] Invalid message type. Expected type 3 and received type 40. || 2019/9/12 || 14:43:0
 [LOG] Sent TYPE6. Expected packet is 208 || 2019/9/12 || 14:43:0
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 11:37:57
+[ERROR] Could not connect to the serial port. || 2019/9/24 || 11:37:57
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 11:40:1
+[ERROR] Could not connect to the serial port. || 2019/9/24 || 11:40:1
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 11:55:5
+[LOG] Connection to the serial port established. || 2019/9/24 || 11:55:5
+[LOG] Port used: /dev/ttyACM0 || 2019/9/24 || 11:55:5
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:5
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:6
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:7
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:8
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:9
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:10
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:11
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:12
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:13
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:14
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:15
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:16
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:17
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:18
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:19
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:20
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:21
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:22
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:23
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:24
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:25
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:55:26
+[LOG] Received TYPE1. || 2019/9/24 || 11:55:27
+[LOG] Sent TYPE2. || 2019/9/24 || 11:55:27
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:55:27
+[LOG] Received TYPE2. || 2019/9/24 || 11:55:27
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:55:28
+[LOG] Sent TYPE4. || 2019/9/24 || 11:55:29
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:55:29
+[LOG] Sent TYPE4. || 2019/9/24 || 11:55:31
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:55:31
+[LOG] Sent TYPE4. || 2019/9/24 || 11:55:32
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:55:32
+[LOG] Sent TYPE4. || 2019/9/24 || 11:55:33
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:55:33
+[LOG] Sent TYPE4. || 2019/9/24 || 11:55:34
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:55:34
+[LOG] Sent TYPE4. || 2019/9/24 || 11:55:35
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:55:35
+[LOG] Sent TYPE4. || 2019/9/24 || 11:55:36
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:55:36
+[LOG] Sent TYPE4. || 2019/9/24 || 11:55:37
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:55:37
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 11:57:8
+[LOG] Connection to the serial port established. || 2019/9/24 || 11:57:8
+[LOG] Port used: /dev/ttyACM0 || 2019/9/24 || 11:57:8
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:57:8
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:57:9
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:57:10
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:57:11
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:57:12
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:57:13
+[LOG] Received TYPE1. || 2019/9/24 || 11:57:14
+[LOG] Sent TYPE2. || 2019/9/24 || 11:57:14
+[LOG] Received TYPE2. || 2019/9/24 || 11:57:14
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:57:14
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:57:15
+[LOG] Sent TYPE4. || 2019/9/24 || 11:57:16
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:57:16
+[LOG] Sent TYPE4. || 2019/9/24 || 11:57:17
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:57:17
+[LOG] Sent TYPE4. || 2019/9/24 || 11:57:18
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:57:18
+[LOG] Sent TYPE4. || 2019/9/24 || 11:57:19
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:57:19
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 11:57:50
+[LOG] Connection to the serial port established. || 2019/9/24 || 11:57:50
+[LOG] Port used: /dev/ttyACM0 || 2019/9/24 || 11:57:50
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:57:50
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:57:51
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:57:52
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:57:53
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:57:54
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:57:55
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:57:56
+[LOG] Received TYPE1. || 2019/9/24 || 11:57:57
+[LOG] Sent TYPE2. || 2019/9/24 || 11:57:57
+[LOG] Received TYPE2. || 2019/9/24 || 11:57:57
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:57:57
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:57:58
+[LOG] Sent TYPE4. || 2019/9/24 || 11:57:59
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:57:59
+[LOG] Sent TYPE4. || 2019/9/24 || 11:58:0
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:58:0
+[LOG] Sent TYPE4. || 2019/9/24 || 11:58:1
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:58:1
+[LOG] Sent TYPE4. || 2019/9/24 || 11:58:2
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:58:2
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 11:58:41
+[LOG] Connection to the serial port established. || 2019/9/24 || 11:58:41
+[LOG] Port used: /dev/ttyACM0 || 2019/9/24 || 11:58:41
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:58:41
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:58:42
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:58:43
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:58:44
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 11:58:45
+[LOG] Received TYPE1. || 2019/9/24 || 11:58:46
+[LOG] Sent TYPE2. || 2019/9/24 || 11:58:46
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:58:46
+[LOG] Received TYPE2. || 2019/9/24 || 11:58:46
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:58:47
+[LOG] Sent TYPE4. || 2019/9/24 || 11:58:48
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:58:48
+[LOG] Sent TYPE4. || 2019/9/24 || 11:58:49
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:58:49
+[LOG] Sent TYPE4. || 2019/9/24 || 11:58:50
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 11:58:50
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 12:2:17
+[LOG] Connection to the serial port established. || 2019/9/24 || 12:2:17
+[LOG] Port used: /dev/ttyACM0 || 2019/9/24 || 12:2:17
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:2:17
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:2:18
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:2:19
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:2:20
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:2:21
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:2:22
+[LOG] Received TYPE1. || 2019/9/24 || 12:2:22
+[LOG] Sent TYPE2. || 2019/9/24 || 12:2:22
+[LOG] Received TYPE2. || 2019/9/24 || 12:2:22
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:2:22
+[LOG] Packet: 1/26 || 2019/9/24 || 12:2:22
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 12:3:47
+[LOG] Connection to the serial port established. || 2019/9/24 || 12:3:47
+[LOG] Port used: /dev/ttyACM0 || 2019/9/24 || 12:3:47
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:3:47
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:3:48
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:3:49
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:3:50
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:3:51
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:3:52
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:3:53
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:3:54
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:3:55
+[LOG] Received TYPE1. || 2019/9/24 || 12:3:56
+[LOG] Sent TYPE2. || 2019/9/24 || 12:3:56
+[LOG] Received TYPE2. || 2019/9/24 || 12:3:56
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:3:56
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:3:57
+[LOG] Sent TYPE4. || 2019/9/24 || 12:3:58
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:3:58
+[LOG] Sent TYPE4. || 2019/9/24 || 12:3:59
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:3:59
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:0
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:0
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:1
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:1
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 12:4:22
+[LOG] Connection to the serial port established. || 2019/9/24 || 12:4:22
+[LOG] Port used: /dev/ttyACM0 || 2019/9/24 || 12:4:22
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:4:22
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:4:23
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:4:24
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:4:25
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:4:26
+[LOG] Received TYPE1. || 2019/9/24 || 12:4:27
+[LOG] Sent TYPE2. || 2019/9/24 || 12:4:27
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:27
+[LOG] Received TYPE2. || 2019/9/24 || 12:4:27
+[LOG] Packet: 1/24 || 2019/9/24 || 12:4:27
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:27
+[LOG] Sent TYPE6. Expected packet is 1 || 2019/9/24 || 12:4:27
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:27
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:27
+[LOG] Packet: 2/24 || 2019/9/24 || 12:4:27
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:27
+[LOG] Sent TYPE6. Expected packet is 2 || 2019/9/24 || 12:4:27
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:27
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:27
+[ERROR] Invalid message type. Expected type 3 and received type 58. || 2019/9/24 || 12:4:27
+[LOG] Sent TYPE6. Expected packet is 3 || 2019/9/24 || 12:4:27
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:27
+[LOG] Sent TYPE6. Expected packet is 3 || 2019/9/24 || 12:4:28
+[LOG] Expected packet 3. Received 2 || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE6. Expected packet is 3 || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:28
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:28
+[LOG] Packet: 3/24 || 2019/9/24 || 12:4:28
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE6. Expected packet is 3 || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:28
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:28
+[ERROR] Invalid message type. Expected type 3 and received type 102. || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE6. Expected packet is 4 || 2019/9/24 || 12:4:28
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE6. Expected packet is 4 || 2019/9/24 || 12:4:28
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE6. Expected packet is 4 || 2019/9/24 || 12:4:28
+[LOG] Expected packet 4. Received 3 || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE6. Expected packet is 4 || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:28
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:28
+[LOG] Packet: 5/24 || 2019/9/24 || 12:4:28
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE6. Expected packet is 4 || 2019/9/24 || 12:4:28
+[LOG] Expected packet 4. Received 5 || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE6. Expected packet is 4 || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:28
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:28
+[LOG] Packet: 4/24 || 2019/9/24 || 12:4:28
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE6. Expected packet is 4 || 2019/9/24 || 12:4:28
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:28
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:29
+[ERROR] Invalid message type. Expected type 3 and received type 32. || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE6. Expected packet is 5 || 2019/9/24 || 12:4:29
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE6. Expected packet is 5 || 2019/9/24 || 12:4:29
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE6. Expected packet is 5 || 2019/9/24 || 12:4:29
+[LOG] Expected packet 5. Received 4 || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE6. Expected packet is 5 || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:29
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:29
+[LOG] Packet: 5/24 || 2019/9/24 || 12:4:29
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE6. Expected packet is 5 || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:29
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:29
+[LOG] Packet: 5/24 || 2019/9/24 || 12:4:29
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE6. Expected packet is 6 || 2019/9/24 || 12:4:29
+[LOG] Expected packet 6. Received 5 || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE6. Expected packet is 6 || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:29
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:29
+[ERROR] Invalid message type. Expected type 3 and received type 32. || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE6. Expected packet is 6 || 2019/9/24 || 12:4:29
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE6. Expected packet is 6 || 2019/9/24 || 12:4:29
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE6. Expected packet is 6 || 2019/9/24 || 12:4:29
+[LOG] Expected packet 6. Received 5 || 2019/9/24 || 12:4:29
+[LOG] Sent TYPE6. Expected packet is 6 || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:30
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:30
+[LOG] Packet: 6/24 || 2019/9/24 || 12:4:30
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE6. Expected packet is 6 || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:30
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:30
+[LOG] Packet: 7/24 || 2019/9/24 || 12:4:30
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE6. Expected packet is 7 || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:30
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:30
+[LOG] Packet: 6/24 || 2019/9/24 || 12:4:30
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE6. Expected packet is 8 || 2019/9/24 || 12:4:30
+[LOG] Expected packet 8. Received 6 || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE6. Expected packet is 8 || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:30
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:30
+[LOG] Packet: 6/24 || 2019/9/24 || 12:4:30
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE6. Expected packet is 8 || 2019/9/24 || 12:4:30
+[LOG] Expected packet 8. Received 6 || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE6. Expected packet is 8 || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:30
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:30
+[ERROR] Invalid message type. Expected type 3 and received type 32. || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE6. Expected packet is 8 || 2019/9/24 || 12:4:30
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE6. Expected packet is 8 || 2019/9/24 || 12:4:30
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE6. Expected packet is 8 || 2019/9/24 || 12:4:30
+[LOG] Expected packet 8. Received 6 || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE6. Expected packet is 8 || 2019/9/24 || 12:4:30
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:30
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:30
+[LOG] Packet: 8/24 || 2019/9/24 || 12:4:31
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE6. Expected packet is 8 || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:31
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:31
+[ERROR] Invalid message type. Expected type 3 and received type 0. || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:31
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:31
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:31
+[LOG] Expected packet 9. Received 8 || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:31
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:31
+[ERROR] Invalid message type. Expected type 3 and received type 0. || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:31
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:31
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:31
+[LOG] Expected packet 9. Received 8 || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:31
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:31
+[ERROR] Invalid message type. Expected type 3 and received type 105. || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:31
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:31
+[LOG] Expected packet 9. Received 8 || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:31
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:31
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:31
+[LOG] Packet: 7/24 || 2019/9/24 || 12:4:31
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:32
+[LOG] Expected packet 9. Received 7 || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:32
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:32
+[LOG] Packet: 7/24 || 2019/9/24 || 12:4:32
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:32
+[LOG] Expected packet 9. Received 7 || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:32
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:32
+[ERROR] Invalid message type. Expected type 3 and received type 32. || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:32
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:32
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:32
+[LOG] Expected packet 9. Received 7 || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:32
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:32
+[ERROR] Invalid message type. Expected type 3 and received type 97. || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:32
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:32
+[LOG] Expected packet 9. Received 7 || 2019/9/24 || 12:4:32
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:33
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:33
+[LOG] Packet: 9/24 || 2019/9/24 || 12:4:33
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:33
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:33
+[ERROR] Invalid message type. Expected type 3 and received type 102. || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:33
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:33
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:33
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:33
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:33
+[LOG] Packet: 9/24 || 2019/9/24 || 12:4:33
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:33
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:33
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:33
+[ERROR] Invalid message type. Expected type 3 and received type 102. || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:33
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:33
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:33
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:33
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:33
+[ERROR] Invalid message type. Expected type 3 and received type 115. || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:33
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:33
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:33
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:34
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:34
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:34
+[LOG] Packet: 9/24 || 2019/9/24 || 12:4:34
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:34
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:34
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:34
+[LOG] Packet: 9/24 || 2019/9/24 || 12:4:34
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:34
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:34
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:34
+[LOG] Packet: 8/24 || 2019/9/24 || 12:4:34
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:34
+[LOG] Expected packet 10. Received 8 || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:34
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:34
+[LOG] Packet: 8/24 || 2019/9/24 || 12:4:34
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:34
+[LOG] Expected packet 10. Received 8 || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:34
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:34
+[ERROR] Invalid message type. Expected type 3 and received type 32. || 2019/9/24 || 12:4:34
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:35
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:35
+[LOG] Expected packet 10. Received 8 || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:35
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:35
+[LOG] Packet: 10/24 || 2019/9/24 || 12:4:35
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:35
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:35
+[LOG] Packet: 11/24 || 2019/9/24 || 12:4:35
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE6. Expected packet is 11 || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:35
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:35
+[LOG] Packet: 10/24 || 2019/9/24 || 12:4:35
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE6. Expected packet is 12 || 2019/9/24 || 12:4:35
+[LOG] Expected packet 12. Received 10 || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE6. Expected packet is 12 || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:35
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:35
+[LOG] Packet: 10/24 || 2019/9/24 || 12:4:35
+[ERROR] Wrong CRC. || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE6. Expected packet is 12 || 2019/9/24 || 12:4:35
+[LOG] Expected packet 12. Received 10 || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE6. Expected packet is 12 || 2019/9/24 || 12:4:35
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:35
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:35
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:36
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:38
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:38
+[LOG] Sent TYPE4. || 2019/9/24 || 12:4:39
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:4:39
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 12:16:27
+[LOG] Connection to the serial port established. || 2019/9/24 || 12:16:27
+[LOG] Port used: /dev/ttyACM0 || 2019/9/24 || 12:16:27
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:16:27
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:16:28
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:16:29
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:16:30
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:16:31
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:16:32
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:16:33
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:16:34
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:16:35
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:16:36
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:16:38
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:16:39
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:16:40
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:16:41
+[LOG] Received TYPE1. || 2019/9/24 || 12:16:41
+[LOG] Sent TYPE2. || 2019/9/24 || 12:16:42
+[LOG] Received TYPE2. || 2019/9/24 || 12:16:42
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:42
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:43
+[LOG] Sent TYPE4. || 2019/9/24 || 12:16:44
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:44
+[LOG] Sent TYPE4. || 2019/9/24 || 12:16:45
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:45
+[LOG] Sent TYPE4. || 2019/9/24 || 12:16:46
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:46
+[LOG] Sent TYPE4. || 2019/9/24 || 12:16:47
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:47
+[LOG] Sent TYPE4. || 2019/9/24 || 12:16:48
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:48
+[LOG] Sent TYPE4. || 2019/9/24 || 12:16:49
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:49
+[LOG] Sent TYPE4. || 2019/9/24 || 12:16:50
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:50
+[LOG] Sent TYPE4. || 2019/9/24 || 12:16:51
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:51
+[LOG] Sent TYPE4. || 2019/9/24 || 12:16:52
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:52
+[LOG] Sent TYPE4. || 2019/9/24 || 12:16:53
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:53
+[LOG] Sent TYPE4. || 2019/9/24 || 12:16:54
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:54
+[LOG] Sent TYPE4. || 2019/9/24 || 12:16:55
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:55
+[LOG] Sent TYPE4. || 2019/9/24 || 12:16:56
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:56
+[LOG] Sent TYPE4. || 2019/9/24 || 12:16:57
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:57
+[LOG] Sent TYPE4. || 2019/9/24 || 12:16:58
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:58
+[LOG] Sent TYPE4. || 2019/9/24 || 12:16:59
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:16:59
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:1
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:1
+[LOG] Timeout on packet 0/24. || 2019/9/24 || 12:17:2
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:17:2
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:17:3
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:17:4
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:17:5
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:17:6
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:17:7
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:17:8
+[LOG] Received TYPE1. || 2019/9/24 || 12:17:8
+[LOG] Sent TYPE2. || 2019/9/24 || 12:17:9
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:9
+[ERROR] Invalid message type. Expected type 3 and received type 1. || 2019/9/24 || 12:17:9
+[LOG] Sent TYPE6. Expected packet is 1 || 2019/9/24 || 12:17:9
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 12:17:15
+[LOG] Connection to the serial port established. || 2019/9/24 || 12:17:15
+[LOG] Port used: /dev/ttyACM0 || 2019/9/24 || 12:17:15
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:17:15
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:17:16
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:17:17
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:17:18
+[LOG] Received TYPE1. || 2019/9/24 || 12:17:19
+[LOG] Sent TYPE2. || 2019/9/24 || 12:17:19
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:19
+[LOG] Received TYPE2. || 2019/9/24 || 12:17:19
+[LOG] Packet: 1/19 || 2019/9/24 || 12:17:19
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:19
+[LOG] Sent TYPE6. Expected packet is 1 || 2019/9/24 || 12:17:19
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:19
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:19
+[LOG] Packet: 2/19 || 2019/9/24 || 12:17:19
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:19
+[LOG] Sent TYPE6. Expected packet is 2 || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:20
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:20
+[ERROR] Invalid message type. Expected type 3 and received type 10. || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE6. Expected packet is 3 || 2019/9/24 || 12:17:20
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE6. Expected packet is 3 || 2019/9/24 || 12:17:20
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE6. Expected packet is 3 || 2019/9/24 || 12:17:20
+[LOG] Expected packet 3. Received 2 || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE6. Expected packet is 3 || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:20
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:20
+[LOG] Packet: 3/19 || 2019/9/24 || 12:17:20
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE6. Expected packet is 3 || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:20
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:20
+[ERROR] Invalid message type. Expected type 3 and received type 112. || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE6. Expected packet is 4 || 2019/9/24 || 12:17:20
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE6. Expected packet is 4 || 2019/9/24 || 12:17:20
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE6. Expected packet is 4 || 2019/9/24 || 12:17:20
+[LOG] Expected packet 4. Received 3 || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE6. Expected packet is 4 || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:20
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:20
+[LOG] Packet: 5/19 || 2019/9/24 || 12:17:20
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE6. Expected packet is 4 || 2019/9/24 || 12:17:20
+[LOG] Expected packet 4. Received 5 || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE6. Expected packet is 4 || 2019/9/24 || 12:17:20
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:21
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:21
+[LOG] Packet: 4/19 || 2019/9/24 || 12:17:21
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE6. Expected packet is 4 || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:21
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:21
+[LOG] Packet: 4/19 || 2019/9/24 || 12:17:21
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE6. Expected packet is 5 || 2019/9/24 || 12:17:21
+[LOG] Expected packet 5. Received 4 || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE6. Expected packet is 5 || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:21
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:21
+[LOG] Packet: 6/19 || 2019/9/24 || 12:17:21
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE6. Expected packet is 5 || 2019/9/24 || 12:17:21
+[LOG] Expected packet 5. Received 6 || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE6. Expected packet is 5 || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:21
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:21
+[LOG] Packet: 6/19 || 2019/9/24 || 12:17:21
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE6. Expected packet is 5 || 2019/9/24 || 12:17:21
+[LOG] Expected packet 5. Received 6 || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE6. Expected packet is 5 || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:21
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:21
+[LOG] Packet: 5/19 || 2019/9/24 || 12:17:21
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE6. Expected packet is 5 || 2019/9/24 || 12:17:21
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:21
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:22
+[LOG] Packet: 6/19 || 2019/9/24 || 12:17:22
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE6. Expected packet is 6 || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:22
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:22
+[LOG] Packet: 7/19 || 2019/9/24 || 12:17:22
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE6. Expected packet is 7 || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:22
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:22
+[LOG] Packet: 7/19 || 2019/9/24 || 12:17:22
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE6. Expected packet is 8 || 2019/9/24 || 12:17:22
+[LOG] Expected packet 8. Received 7 || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE6. Expected packet is 8 || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:22
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:22
+[LOG] Packet: 7/19 || 2019/9/24 || 12:17:22
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE6. Expected packet is 8 || 2019/9/24 || 12:17:22
+[LOG] Expected packet 8. Received 7 || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE6. Expected packet is 8 || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:22
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:22
+[LOG] Packet: 8/19 || 2019/9/24 || 12:17:22
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE6. Expected packet is 8 || 2019/9/24 || 12:17:22
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:22
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:22
+[LOG] Packet: 9/19 || 2019/9/24 || 12:17:22
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE6. Expected packet is 9 || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:23
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:23
+[LOG] Packet: 8/19 || 2019/9/24 || 12:17:23
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:23
+[LOG] Expected packet 10. Received 8 || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:23
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:23
+[ERROR] Invalid message type. Expected type 3 and received type 116. || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:23
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:23
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:23
+[LOG] Expected packet 10. Received 8 || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:23
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:23
+[ERROR] Invalid message type. Expected type 3 and received type 44. || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:23
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:23
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:23
+[LOG] Expected packet 10. Received 8 || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:23
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:23
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:23
+[LOG] Packet: 9/19 || 2019/9/24 || 12:17:24
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:24
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:24
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:24
+[LOG] Packet: 9/19 || 2019/9/24 || 12:17:24
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:24
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:24
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:24
+[LOG] Packet: 9/19 || 2019/9/24 || 12:17:24
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:24
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:24
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:24
+[LOG] Packet: 9/19 || 2019/9/24 || 12:17:24
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:24
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:24
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:24
+[LOG] Packet: 9/19 || 2019/9/24 || 12:17:24
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:24
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:24
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:24
+[LOG] Packet: 9/19 || 2019/9/24 || 12:17:24
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:24
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:25
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:25
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:25
+[ERROR] Invalid message type. Expected type 3 and received type 61. || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:25
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:25
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:25
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:25
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:25
+[ERROR] Invalid message type. Expected type 3 and received type 0. || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:25
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:25
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:25
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:25
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:25
+[ERROR] Invalid message type. Expected type 3 and received type 100. || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:25
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:25
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:25
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:17:25
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:26
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:26
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:26
+[ERROR] Invalid message type. Expected type 3 and received type 32. || 2019/9/24 || 12:17:26
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:26
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:17:26
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:26
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:26
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:26
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:17:26
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:26
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:26
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:26
+[ERROR] Invalid message type. Expected type 3 and received type 116. || 2019/9/24 || 12:17:26
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:26
+[ERROR] Could not find EOP in payload. || 2019/9/24 || 12:17:26
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:26
+[ERROR] Wrong CRC. || 2019/9/24 || 12:17:26
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:26
+[LOG] Expected packet 10. Received 9 || 2019/9/24 || 12:17:26
+[LOG] Sent TYPE6. Expected packet is 10 || 2019/9/24 || 12:17:26
+[LOG] Sent TYPE4. || 2019/9/24 || 12:17:26
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:26
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:17:27
+[LOG] Trying to establish connection to the serial port. || 2019/9/24 || 12:18:38
+[LOG] Connection to the serial port established. || 2019/9/24 || 12:18:38
+[LOG] Port used: /dev/ttyACM0 || 2019/9/24 || 12:18:38
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:38
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:39
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:40
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:41
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:42
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:43
+[LOG] Received TYPE1. || 2019/9/24 || 12:18:44
+[LOG] Received TYPE2. || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE2. || 2019/9/24 || 12:18:44
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:44
+[LOG] Packet: 1/19 || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:44
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:44
+[LOG] Packet: 2/19 || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:44
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:44
+[LOG] Packet: 3/19 || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:44
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:44
+[LOG] Packet: 4/19 || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:44
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:44
+[LOG] Packet: 5/19 || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:44
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:44
+[LOG] Packet: 6/19 || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:44
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:44
+[LOG] Packet: 7/19 || 2019/9/24 || 12:18:44
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:44
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:44
+[LOG] Packet: 8/19 || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:45
+[LOG] Packet: 9/19 || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:45
+[LOG] Packet: 10/19 || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:45
+[LOG] Packet: 11/19 || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:45
+[LOG] Packet: 12/19 || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:45
+[LOG] Packet: 13/19 || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:45
+[LOG] Packet: 14/19 || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:45
+[LOG] Packet: 15/19 || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:45
+[LOG] Packet: 16/19 || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:45
+[LOG] Packet: 17/19 || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:45
+[LOG] Packet: 18/19 || 2019/9/24 || 12:18:45
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:45
+[LOG] Waiting for header of TYPE3. || 2019/9/24 || 12:18:45
+[LOG] Packet: 19/19 || 2019/9/24 || 12:18:46
+[LOG] File saved. || 2019/9/24 || 12:18:46
+[LOG] Sent TYPE4. || 2019/9/24 || 12:18:46
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:46
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:47
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:48
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:49
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:50
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:51
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:52
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:53
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:54
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:55
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:56
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:57
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:58
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:18:59
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:0
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:1
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:2
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:3
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:4
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:5
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:6
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:7
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:8
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:9
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:11
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:12
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:13
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:14
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:15
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:16
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:17
+[LOG] Waiting for TYPE1 message... || 2019/9/24 || 12:19:18

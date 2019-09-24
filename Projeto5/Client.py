@@ -1,6 +1,16 @@
+#####################################################
+# Camada Física da Computação
+# Henry Rocha e Vitor Eller
+# 18/08/2019
+# Send and receice data using packets.
+#####################################################
+
+
+
 import os
 import time
 from Common import Common
+from PyCRC.CRC16 import CRC16
 from math import ceil
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
@@ -122,7 +132,7 @@ class Client(Common):
         self.fileSizeBA = self.fileSize.to_bytes(4, "little")
         self.log("File size: {} bytes".format(self.fileSize), "client")
 
-        self.numberOfPackets = ceil(len(self.fileBA) / 128)
+        self.numberOfPackets = ceil(len(self.fileBA) / 126)
         self.currentPacket = 1
     
 
@@ -182,7 +192,11 @@ class Client(Common):
 
         while self.currentPacket <= self.numberOfPackets:
             # Slicing the file to create the payload
-            self.payload = self.fileBA[(self.currentPacket - 1)*128 : self.currentPacket*128]
+            self.payload = self.fileBA[(self.currentPacket - 1)*126 : self.currentPacket*126]
+
+            # Calculate and add crc to the payload
+            crc = CRC16().calculate(bytes(self.payload))
+            self.payload = self.payload + crc.to_bytes(2, "little")
             
             # Building the header
             self.buildHead()
