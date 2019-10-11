@@ -4619,3 +4619,1398 @@
 [LOG] File sent sucessfully. || 2019/9/24 || 12:18:46
 [LOG] Throughput:  1.1777942471965146 kb/s. || 2019/9/24 || 12:18:46
 [ERROR] No file selected. Aborting. || 2019/9/24 || 12:18:53
+[LOG] Trying to establish connection to the serial port. || 2019/9/27 || 14:28:14
+[LOG] Connection to the serial port established. || 2019/9/27 || 14:28:14
+[LOG] Port used: /dev/ttyACM1 || 2019/9/27 || 14:28:14
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/Common.py || 2019/9/27 || 14:28:17
+[LOG] File size: 3458 bytes || 2019/9/27 || 14:28:18
+[LOG] Sent TYPE1. || 2019/9/27 || 14:28:18
+[LOG] Waiting for TYPE2. || 2019/9/27 || 14:28:18
+[LOG] Sent TYPE1. || 2019/9/27 || 14:28:23
+[LOG] Waiting for TYPE2. || 2019/9/27 || 14:28:23
+[LOG] Trying to establish connection to the serial port. || 2019/9/27 || 14:29:7
+[LOG] Connection to the serial port established. || 2019/9/27 || 14:29:7
+[LOG] Port used: /dev/ttyACM1 || 2019/9/27 || 14:29:7
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/Common.py || 2019/9/27 || 14:29:11
+[LOG] File size: 3458 bytes || 2019/9/27 || 14:29:11
+[LOG] Sent TYPE1. || 2019/9/27 || 14:29:11
+[LOG] Waiting for TYPE2. || 2019/9/27 || 14:29:11
+[LOG] Sent TYPE3. Packet 1/28. || 2019/9/27 || 14:29:11
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:11
+[LOG] Sent TYPE3. Packet 2/28. || 2019/9/27 || 14:29:11
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:11
+[LOG] Sent TYPE3. Packet 3/28. || 2019/9/27 || 14:29:11
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:11
+[LOG] Sent TYPE3. Packet 4/28. || 2019/9/27 || 14:29:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:12
+[LOG] Sent TYPE3. Packet 5/28. || 2019/9/27 || 14:29:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:12
+[LOG] Sent TYPE3. Packet 6/28. || 2019/9/27 || 14:29:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:12
+[LOG] Sent TYPE3. Packet 7/28. || 2019/9/27 || 14:29:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:12
+[LOG] Sent TYPE3. Packet 8/28. || 2019/9/27 || 14:29:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:12
+[LOG] Sent TYPE3. Packet 9/28. || 2019/9/27 || 14:29:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:12
+[LOG] Sent TYPE3. Packet 10/28. || 2019/9/27 || 14:29:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:12
+[LOG] Sent TYPE3. Packet 11/28. || 2019/9/27 || 14:29:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:12
+[LOG] Sent TYPE3. Packet 12/28. || 2019/9/27 || 14:29:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:12
+[LOG] Sent TYPE3. Packet 13/28. || 2019/9/27 || 14:29:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:12
+[LOG] Sent TYPE3. Packet 14/28. || 2019/9/27 || 14:29:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:13
+[LOG] Sent TYPE3. Packet 15/28. || 2019/9/27 || 14:29:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:13
+[LOG] Sent TYPE3. Packet 16/28. || 2019/9/27 || 14:29:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:13
+[LOG] Sent TYPE3. Packet 17/28. || 2019/9/27 || 14:29:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:13
+[LOG] Sent TYPE3. Packet 18/28. || 2019/9/27 || 14:29:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:13
+[LOG] Sent TYPE3. Packet 19/28. || 2019/9/27 || 14:29:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:13
+[LOG] Sent TYPE3. Packet 20/28. || 2019/9/27 || 14:29:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:13
+[LOG] Sent TYPE3. Packet 21/28. || 2019/9/27 || 14:29:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:13
+[LOG] Sent TYPE3. Packet 22/28. || 2019/9/27 || 14:29:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:13
+[LOG] Sent TYPE3. Packet 23/28. || 2019/9/27 || 14:29:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:13
+[LOG] Sent TYPE3. Packet 24/28. || 2019/9/27 || 14:29:14
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:14
+[LOG] Sent TYPE3. Packet 25/28. || 2019/9/27 || 14:29:14
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:14
+[LOG] Sent TYPE3. Packet 26/28. || 2019/9/27 || 14:29:14
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:14
+[LOG] Sent TYPE3. Packet 27/28. || 2019/9/27 || 14:29:14
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:14
+[LOG] Sent TYPE3. Packet 28/28. || 2019/9/27 || 14:29:14
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:14
+[LOG] File sent sucessfully. || 2019/9/27 || 14:29:14
+[LOG] Throughput:  1.1785059389652708 kb/s. || 2019/9/27 || 14:29:14
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/foreveralone.jpg || 2019/9/27 || 14:29:21
+[LOG] File size: 33719 bytes || 2019/9/27 || 14:29:21
+[LOG] Sent TYPE1. || 2019/9/27 || 14:29:21
+[LOG] Waiting for TYPE2. || 2019/9/27 || 14:29:21
+[LOG] Sent TYPE3. Packet 1/268. || 2019/9/27 || 14:29:21
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:21
+[LOG] Sent TYPE3. Packet 2/268. || 2019/9/27 || 14:29:21
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:21
+[LOG] Sent TYPE3. Packet 3/268. || 2019/9/27 || 14:29:21
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:21
+[LOG] Sent TYPE3. Packet 4/268. || 2019/9/27 || 14:29:21
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:21
+[LOG] Sent TYPE3. Packet 5/268. || 2019/9/27 || 14:29:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:22
+[LOG] Sent TYPE3. Packet 6/268. || 2019/9/27 || 14:29:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:22
+[LOG] Sent TYPE3. Packet 7/268. || 2019/9/27 || 14:29:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:22
+[LOG] Sent TYPE3. Packet 8/268. || 2019/9/27 || 14:29:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:22
+[LOG] Sent TYPE3. Packet 9/268. || 2019/9/27 || 14:29:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:22
+[LOG] Sent TYPE3. Packet 10/268. || 2019/9/27 || 14:29:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:22
+[LOG] Sent TYPE3. Packet 11/268. || 2019/9/27 || 14:29:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:22
+[LOG] Sent TYPE3. Packet 12/268. || 2019/9/27 || 14:29:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:22
+[LOG] Sent TYPE3. Packet 13/268. || 2019/9/27 || 14:29:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:22
+[LOG] Sent TYPE3. Packet 14/268. || 2019/9/27 || 14:29:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:22
+[LOG] Sent TYPE3. Packet 15/268. || 2019/9/27 || 14:29:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:23
+[LOG] Sent TYPE3. Packet 16/268. || 2019/9/27 || 14:29:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:23
+[LOG] Sent TYPE3. Packet 17/268. || 2019/9/27 || 14:29:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:23
+[LOG] Sent TYPE3. Packet 18/268. || 2019/9/27 || 14:29:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:23
+[LOG] Sent TYPE3. Packet 19/268. || 2019/9/27 || 14:29:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:23
+[LOG] Sent TYPE3. Packet 20/268. || 2019/9/27 || 14:29:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:23
+[LOG] Sent TYPE3. Packet 21/268. || 2019/9/27 || 14:29:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:23
+[LOG] Sent TYPE3. Packet 22/268. || 2019/9/27 || 14:29:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:23
+[LOG] Sent TYPE3. Packet 23/268. || 2019/9/27 || 14:29:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:23
+[LOG] Sent TYPE3. Packet 24/268. || 2019/9/27 || 14:29:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:23
+[LOG] Sent TYPE3. Packet 25/268. || 2019/9/27 || 14:29:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:24
+[LOG] Sent TYPE3. Packet 26/268. || 2019/9/27 || 14:29:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:24
+[LOG] Sent TYPE3. Packet 27/268. || 2019/9/27 || 14:29:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:24
+[LOG] Sent TYPE3. Packet 28/268. || 2019/9/27 || 14:29:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:24
+[LOG] Sent TYPE3. Packet 29/268. || 2019/9/27 || 14:29:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:24
+[LOG] Sent TYPE3. Packet 30/268. || 2019/9/27 || 14:29:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:24
+[LOG] Sent TYPE3. Packet 31/268. || 2019/9/27 || 14:29:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:24
+[LOG] Sent TYPE3. Packet 32/268. || 2019/9/27 || 14:29:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:24
+[LOG] Sent TYPE3. Packet 33/268. || 2019/9/27 || 14:29:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:24
+[LOG] Sent TYPE3. Packet 34/268. || 2019/9/27 || 14:29:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:24
+[LOG] Sent TYPE3. Packet 35/268. || 2019/9/27 || 14:29:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:25
+[LOG] Sent TYPE3. Packet 36/268. || 2019/9/27 || 14:29:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:25
+[LOG] Sent TYPE3. Packet 37/268. || 2019/9/27 || 14:29:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:25
+[LOG] Sent TYPE3. Packet 38/268. || 2019/9/27 || 14:29:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:25
+[LOG] Sent TYPE3. Packet 39/268. || 2019/9/27 || 14:29:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:25
+[LOG] Sent TYPE3. Packet 40/268. || 2019/9/27 || 14:29:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:25
+[LOG] Sent TYPE3. Packet 41/268. || 2019/9/27 || 14:29:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:25
+[LOG] Sent TYPE3. Packet 42/268. || 2019/9/27 || 14:29:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:25
+[LOG] Sent TYPE3. Packet 43/268. || 2019/9/27 || 14:29:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:25
+[LOG] Sent TYPE3. Packet 44/268. || 2019/9/27 || 14:29:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:25
+[LOG] Sent TYPE3. Packet 45/268. || 2019/9/27 || 14:29:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:25
+[LOG] Sent TYPE3. Packet 46/268. || 2019/9/27 || 14:29:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:26
+[LOG] Sent TYPE3. Packet 47/268. || 2019/9/27 || 14:29:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:26
+[LOG] Sent TYPE3. Packet 48/268. || 2019/9/27 || 14:29:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:26
+[LOG] Sent TYPE3. Packet 49/268. || 2019/9/27 || 14:29:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:26
+[LOG] Sent TYPE3. Packet 50/268. || 2019/9/27 || 14:29:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:26
+[LOG] Sent TYPE3. Packet 51/268. || 2019/9/27 || 14:29:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:26
+[LOG] Sent TYPE3. Packet 52/268. || 2019/9/27 || 14:29:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:26
+[LOG] Sent TYPE3. Packet 53/268. || 2019/9/27 || 14:29:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:26
+[LOG] Sent TYPE3. Packet 54/268. || 2019/9/27 || 14:29:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:26
+[LOG] Sent TYPE3. Packet 55/268. || 2019/9/27 || 14:29:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:26
+[LOG] Sent TYPE3. Packet 56/268. || 2019/9/27 || 14:29:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:27
+[LOG] Sent TYPE3. Packet 57/268. || 2019/9/27 || 14:29:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:27
+[LOG] Sent TYPE3. Packet 58/268. || 2019/9/27 || 14:29:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:27
+[LOG] Sent TYPE3. Packet 59/268. || 2019/9/27 || 14:29:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:27
+[LOG] Sent TYPE3. Packet 60/268. || 2019/9/27 || 14:29:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:27
+[LOG] Sent TYPE3. Packet 61/268. || 2019/9/27 || 14:29:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:27
+[LOG] Sent TYPE3. Packet 62/268. || 2019/9/27 || 14:29:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:27
+[LOG] Sent TYPE3. Packet 63/268. || 2019/9/27 || 14:29:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:27
+[LOG] Sent TYPE3. Packet 64/268. || 2019/9/27 || 14:29:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:27
+[LOG] Sent TYPE3. Packet 65/268. || 2019/9/27 || 14:29:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:27
+[LOG] Sent TYPE3. Packet 66/268. || 2019/9/27 || 14:29:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:27
+[LOG] Sent TYPE3. Packet 67/268. || 2019/9/27 || 14:29:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:28
+[LOG] Sent TYPE3. Packet 68/268. || 2019/9/27 || 14:29:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:28
+[LOG] Sent TYPE3. Packet 69/268. || 2019/9/27 || 14:29:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:28
+[LOG] Sent TYPE3. Packet 70/268. || 2019/9/27 || 14:29:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:28
+[LOG] Sent TYPE3. Packet 71/268. || 2019/9/27 || 14:29:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:28
+[LOG] Sent TYPE3. Packet 72/268. || 2019/9/27 || 14:29:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:28
+[LOG] Sent TYPE3. Packet 73/268. || 2019/9/27 || 14:29:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:28
+[LOG] Sent TYPE3. Packet 74/268. || 2019/9/27 || 14:29:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:28
+[LOG] Sent TYPE3. Packet 75/268. || 2019/9/27 || 14:29:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:28
+[LOG] Sent TYPE3. Packet 76/268. || 2019/9/27 || 14:29:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:28
+[LOG] Sent TYPE3. Packet 77/268. || 2019/9/27 || 14:29:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:28
+[LOG] Sent TYPE3. Packet 78/268. || 2019/9/27 || 14:29:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:29
+[LOG] Sent TYPE3. Packet 79/268. || 2019/9/27 || 14:29:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:29
+[LOG] Sent TYPE3. Packet 80/268. || 2019/9/27 || 14:29:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:29
+[LOG] Sent TYPE3. Packet 81/268. || 2019/9/27 || 14:29:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:29
+[LOG] Sent TYPE3. Packet 82/268. || 2019/9/27 || 14:29:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:29
+[LOG] Sent TYPE3. Packet 83/268. || 2019/9/27 || 14:29:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:29
+[LOG] Sent TYPE3. Packet 84/268. || 2019/9/27 || 14:29:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:29
+[LOG] Sent TYPE3. Packet 85/268. || 2019/9/27 || 14:29:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:29
+[LOG] Sent TYPE3. Packet 86/268. || 2019/9/27 || 14:29:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:29
+[LOG] Sent TYPE3. Packet 87/268. || 2019/9/27 || 14:29:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:29
+[LOG] Sent TYPE3. Packet 88/268. || 2019/9/27 || 14:29:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:30
+[LOG] Sent TYPE3. Packet 89/268. || 2019/9/27 || 14:29:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:30
+[LOG] Sent TYPE3. Packet 90/268. || 2019/9/27 || 14:29:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:30
+[LOG] Sent TYPE3. Packet 91/268. || 2019/9/27 || 14:29:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:30
+[LOG] Sent TYPE3. Packet 92/268. || 2019/9/27 || 14:29:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:30
+[LOG] Sent TYPE3. Packet 93/268. || 2019/9/27 || 14:29:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:30
+[LOG] Sent TYPE3. Packet 94/268. || 2019/9/27 || 14:29:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:30
+[LOG] Sent TYPE3. Packet 95/268. || 2019/9/27 || 14:29:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:30
+[LOG] Sent TYPE3. Packet 96/268. || 2019/9/27 || 14:29:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:30
+[LOG] Sent TYPE3. Packet 97/268. || 2019/9/27 || 14:29:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:30
+[LOG] Sent TYPE3. Packet 98/268. || 2019/9/27 || 14:29:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:30
+[LOG] Sent TYPE3. Packet 99/268. || 2019/9/27 || 14:29:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:31
+[LOG] Sent TYPE3. Packet 100/268. || 2019/9/27 || 14:29:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:31
+[LOG] Sent TYPE3. Packet 101/268. || 2019/9/27 || 14:29:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:31
+[LOG] Sent TYPE3. Packet 102/268. || 2019/9/27 || 14:29:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:31
+[LOG] Sent TYPE3. Packet 103/268. || 2019/9/27 || 14:29:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:31
+[LOG] Sent TYPE3. Packet 104/268. || 2019/9/27 || 14:29:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:31
+[LOG] Sent TYPE3. Packet 105/268. || 2019/9/27 || 14:29:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:31
+[LOG] Sent TYPE3. Packet 106/268. || 2019/9/27 || 14:29:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:31
+[LOG] Sent TYPE3. Packet 107/268. || 2019/9/27 || 14:29:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:31
+[LOG] Sent TYPE3. Packet 108/268. || 2019/9/27 || 14:29:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:31
+[LOG] Sent TYPE3. Packet 109/268. || 2019/9/27 || 14:29:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:32
+[LOG] Sent TYPE3. Packet 110/268. || 2019/9/27 || 14:29:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:32
+[LOG] Sent TYPE3. Packet 111/268. || 2019/9/27 || 14:29:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:32
+[LOG] Sent TYPE3. Packet 112/268. || 2019/9/27 || 14:29:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:32
+[LOG] Sent TYPE3. Packet 113/268. || 2019/9/27 || 14:29:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:32
+[LOG] Sent TYPE3. Packet 114/268. || 2019/9/27 || 14:29:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:32
+[LOG] Sent TYPE3. Packet 115/268. || 2019/9/27 || 14:29:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:32
+[LOG] Sent TYPE3. Packet 116/268. || 2019/9/27 || 14:29:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:32
+[LOG] Sent TYPE3. Packet 117/268. || 2019/9/27 || 14:29:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:32
+[LOG] Sent TYPE3. Packet 118/268. || 2019/9/27 || 14:29:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:33
+[LOG] Sent TYPE3. Packet 119/268. || 2019/9/27 || 14:29:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:33
+[LOG] Sent TYPE3. Packet 120/268. || 2019/9/27 || 14:29:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:33
+[LOG] Sent TYPE3. Packet 121/268. || 2019/9/27 || 14:29:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:33
+[LOG] Sent TYPE3. Packet 122/268. || 2019/9/27 || 14:29:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:33
+[LOG] Sent TYPE3. Packet 123/268. || 2019/9/27 || 14:29:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:33
+[LOG] Sent TYPE3. Packet 124/268. || 2019/9/27 || 14:29:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:33
+[LOG] Sent TYPE3. Packet 125/268. || 2019/9/27 || 14:29:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:33
+[LOG] Sent TYPE3. Packet 126/268. || 2019/9/27 || 14:29:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:33
+[LOG] Sent TYPE3. Packet 127/268. || 2019/9/27 || 14:29:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:33
+[LOG] Sent TYPE3. Packet 128/268. || 2019/9/27 || 14:29:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:34
+[LOG] Sent TYPE3. Packet 129/268. || 2019/9/27 || 14:29:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:34
+[LOG] Sent TYPE3. Packet 130/268. || 2019/9/27 || 14:29:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:34
+[LOG] Sent TYPE3. Packet 131/268. || 2019/9/27 || 14:29:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:34
+[LOG] Sent TYPE3. Packet 132/268. || 2019/9/27 || 14:29:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:34
+[LOG] Sent TYPE3. Packet 133/268. || 2019/9/27 || 14:29:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:34
+[LOG] Sent TYPE3. Packet 134/268. || 2019/9/27 || 14:29:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:34
+[LOG] Sent TYPE3. Packet 135/268. || 2019/9/27 || 14:29:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:34
+[LOG] Sent TYPE3. Packet 136/268. || 2019/9/27 || 14:29:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:34
+[LOG] Sent TYPE3. Packet 137/268. || 2019/9/27 || 14:29:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:34
+[LOG] Sent TYPE3. Packet 138/268. || 2019/9/27 || 14:29:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:34
+[LOG] Sent TYPE3. Packet 139/268. || 2019/9/27 || 14:29:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:34
+[LOG] Sent TYPE3. Packet 140/268. || 2019/9/27 || 14:29:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:35
+[LOG] Sent TYPE3. Packet 141/268. || 2019/9/27 || 14:29:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:35
+[LOG] Sent TYPE3. Packet 142/268. || 2019/9/27 || 14:29:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:35
+[LOG] Sent TYPE3. Packet 143/268. || 2019/9/27 || 14:29:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:35
+[LOG] Sent TYPE3. Packet 144/268. || 2019/9/27 || 14:29:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:35
+[LOG] Sent TYPE3. Packet 145/268. || 2019/9/27 || 14:29:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:35
+[LOG] Sent TYPE3. Packet 146/268. || 2019/9/27 || 14:29:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:35
+[LOG] Sent TYPE3. Packet 147/268. || 2019/9/27 || 14:29:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:35
+[LOG] Sent TYPE3. Packet 148/268. || 2019/9/27 || 14:29:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:35
+[LOG] Sent TYPE3. Packet 149/268. || 2019/9/27 || 14:29:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:35
+[LOG] Sent TYPE3. Packet 150/268. || 2019/9/27 || 14:29:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:36
+[LOG] Sent TYPE3. Packet 151/268. || 2019/9/27 || 14:29:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:36
+[LOG] Sent TYPE3. Packet 152/268. || 2019/9/27 || 14:29:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:36
+[LOG] Sent TYPE3. Packet 153/268. || 2019/9/27 || 14:29:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:36
+[LOG] Sent TYPE3. Packet 154/268. || 2019/9/27 || 14:29:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:36
+[LOG] Sent TYPE3. Packet 155/268. || 2019/9/27 || 14:29:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:36
+[LOG] Sent TYPE3. Packet 156/268. || 2019/9/27 || 14:29:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:36
+[LOG] Sent TYPE3. Packet 157/268. || 2019/9/27 || 14:29:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:36
+[LOG] Sent TYPE3. Packet 158/268. || 2019/9/27 || 14:29:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:36
+[LOG] Sent TYPE3. Packet 159/268. || 2019/9/27 || 14:29:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:36
+[LOG] Sent TYPE3. Packet 160/268. || 2019/9/27 || 14:29:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:36
+[LOG] Sent TYPE3. Packet 161/268. || 2019/9/27 || 14:29:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:37
+[LOG] Sent TYPE3. Packet 162/268. || 2019/9/27 || 14:29:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:37
+[LOG] Sent TYPE3. Packet 163/268. || 2019/9/27 || 14:29:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:37
+[LOG] Sent TYPE3. Packet 164/268. || 2019/9/27 || 14:29:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:37
+[LOG] Sent TYPE3. Packet 165/268. || 2019/9/27 || 14:29:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:37
+[LOG] Sent TYPE3. Packet 166/268. || 2019/9/27 || 14:29:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:37
+[LOG] Sent TYPE3. Packet 167/268. || 2019/9/27 || 14:29:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:37
+[LOG] Sent TYPE3. Packet 168/268. || 2019/9/27 || 14:29:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:37
+[LOG] Sent TYPE3. Packet 169/268. || 2019/9/27 || 14:29:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:37
+[LOG] Sent TYPE3. Packet 170/268. || 2019/9/27 || 14:29:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:37
+[LOG] Sent TYPE3. Packet 171/268. || 2019/9/27 || 14:29:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:38
+[LOG] Sent TYPE3. Packet 172/268. || 2019/9/27 || 14:29:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:38
+[LOG] Sent TYPE3. Packet 173/268. || 2019/9/27 || 14:29:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:38
+[LOG] Sent TYPE3. Packet 174/268. || 2019/9/27 || 14:29:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:38
+[LOG] Sent TYPE3. Packet 175/268. || 2019/9/27 || 14:29:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:38
+[LOG] Sent TYPE3. Packet 176/268. || 2019/9/27 || 14:29:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:38
+[LOG] Sent TYPE3. Packet 177/268. || 2019/9/27 || 14:29:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:38
+[LOG] Sent TYPE3. Packet 178/268. || 2019/9/27 || 14:29:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:38
+[LOG] Sent TYPE3. Packet 179/268. || 2019/9/27 || 14:29:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:38
+[LOG] Sent TYPE3. Packet 180/268. || 2019/9/27 || 14:29:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:38
+[LOG] Sent TYPE3. Packet 181/268. || 2019/9/27 || 14:29:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:38
+[LOG] Sent TYPE3. Packet 182/268. || 2019/9/27 || 14:29:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:39
+[LOG] Sent TYPE3. Packet 183/268. || 2019/9/27 || 14:29:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:39
+[LOG] Sent TYPE3. Packet 184/268. || 2019/9/27 || 14:29:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:39
+[LOG] Sent TYPE3. Packet 185/268. || 2019/9/27 || 14:29:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:39
+[LOG] Sent TYPE3. Packet 186/268. || 2019/9/27 || 14:29:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:39
+[LOG] Sent TYPE3. Packet 187/268. || 2019/9/27 || 14:29:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:39
+[LOG] Sent TYPE3. Packet 188/268. || 2019/9/27 || 14:29:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:39
+[LOG] Sent TYPE3. Packet 189/268. || 2019/9/27 || 14:29:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:39
+[LOG] Sent TYPE3. Packet 190/268. || 2019/9/27 || 14:29:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:39
+[LOG] Sent TYPE3. Packet 191/268. || 2019/9/27 || 14:29:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:39
+[LOG] Sent TYPE3. Packet 192/268. || 2019/9/27 || 14:29:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:40
+[LOG] Sent TYPE3. Packet 193/268. || 2019/9/27 || 14:29:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:40
+[LOG] Sent TYPE3. Packet 194/268. || 2019/9/27 || 14:29:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:40
+[LOG] Sent TYPE3. Packet 195/268. || 2019/9/27 || 14:29:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:40
+[LOG] Sent TYPE3. Packet 196/268. || 2019/9/27 || 14:29:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:40
+[LOG] Sent TYPE3. Packet 197/268. || 2019/9/27 || 14:29:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:40
+[LOG] Sent TYPE3. Packet 198/268. || 2019/9/27 || 14:29:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:40
+[LOG] Sent TYPE3. Packet 199/268. || 2019/9/27 || 14:29:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:40
+[LOG] Sent TYPE3. Packet 200/268. || 2019/9/27 || 14:29:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:40
+[LOG] Sent TYPE3. Packet 201/268. || 2019/9/27 || 14:29:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:40
+[LOG] Sent TYPE3. Packet 202/268. || 2019/9/27 || 14:29:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:40
+[LOG] Sent TYPE3. Packet 203/268. || 2019/9/27 || 14:29:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:41
+[LOG] Sent TYPE3. Packet 204/268. || 2019/9/27 || 14:29:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:41
+[LOG] Sent TYPE3. Packet 205/268. || 2019/9/27 || 14:29:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:41
+[LOG] Sent TYPE3. Packet 206/268. || 2019/9/27 || 14:29:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:41
+[LOG] Sent TYPE3. Packet 207/268. || 2019/9/27 || 14:29:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:41
+[LOG] Sent TYPE3. Packet 208/268. || 2019/9/27 || 14:29:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:41
+[LOG] Sent TYPE3. Packet 209/268. || 2019/9/27 || 14:29:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:41
+[LOG] Sent TYPE3. Packet 210/268. || 2019/9/27 || 14:29:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:41
+[LOG] Sent TYPE3. Packet 211/268. || 2019/9/27 || 14:29:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:41
+[LOG] Sent TYPE3. Packet 212/268. || 2019/9/27 || 14:29:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:41
+[LOG] Sent TYPE3. Packet 213/268. || 2019/9/27 || 14:29:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:41
+[LOG] Sent TYPE3. Packet 214/268. || 2019/9/27 || 14:29:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:42
+[LOG] Sent TYPE3. Packet 215/268. || 2019/9/27 || 14:29:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:42
+[LOG] Sent TYPE3. Packet 216/268. || 2019/9/27 || 14:29:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:42
+[LOG] Sent TYPE3. Packet 217/268. || 2019/9/27 || 14:29:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:42
+[LOG] Sent TYPE3. Packet 218/268. || 2019/9/27 || 14:29:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:42
+[LOG] Sent TYPE3. Packet 219/268. || 2019/9/27 || 14:29:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:42
+[LOG] Sent TYPE3. Packet 220/268. || 2019/9/27 || 14:29:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:42
+[LOG] Sent TYPE3. Packet 221/268. || 2019/9/27 || 14:29:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:42
+[LOG] Sent TYPE3. Packet 222/268. || 2019/9/27 || 14:29:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:42
+[LOG] Sent TYPE3. Packet 223/268. || 2019/9/27 || 14:29:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:42
+[LOG] Sent TYPE3. Packet 224/268. || 2019/9/27 || 14:29:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:43
+[LOG] Sent TYPE3. Packet 225/268. || 2019/9/27 || 14:29:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:43
+[LOG] Sent TYPE3. Packet 226/268. || 2019/9/27 || 14:29:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:43
+[LOG] Sent TYPE3. Packet 227/268. || 2019/9/27 || 14:29:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:43
+[LOG] Sent TYPE3. Packet 228/268. || 2019/9/27 || 14:29:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:43
+[LOG] Sent TYPE3. Packet 229/268. || 2019/9/27 || 14:29:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:43
+[LOG] Sent TYPE3. Packet 230/268. || 2019/9/27 || 14:29:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:43
+[LOG] Sent TYPE3. Packet 231/268. || 2019/9/27 || 14:29:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:43
+[LOG] Sent TYPE3. Packet 232/268. || 2019/9/27 || 14:29:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:43
+[LOG] Sent TYPE3. Packet 233/268. || 2019/9/27 || 14:29:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:43
+[LOG] Sent TYPE3. Packet 234/268. || 2019/9/27 || 14:29:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:44
+[LOG] Sent TYPE3. Packet 235/268. || 2019/9/27 || 14:29:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:44
+[LOG] Sent TYPE3. Packet 236/268. || 2019/9/27 || 14:29:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:44
+[LOG] Sent TYPE3. Packet 237/268. || 2019/9/27 || 14:29:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:44
+[LOG] Sent TYPE3. Packet 238/268. || 2019/9/27 || 14:29:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:44
+[LOG] Sent TYPE3. Packet 239/268. || 2019/9/27 || 14:29:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:44
+[LOG] Sent TYPE3. Packet 240/268. || 2019/9/27 || 14:29:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:44
+[LOG] Sent TYPE3. Packet 241/268. || 2019/9/27 || 14:29:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:44
+[LOG] Sent TYPE3. Packet 242/268. || 2019/9/27 || 14:29:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:44
+[LOG] Sent TYPE3. Packet 243/268. || 2019/9/27 || 14:29:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:44
+[LOG] Sent TYPE3. Packet 244/268. || 2019/9/27 || 14:29:45
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:45
+[LOG] Sent TYPE3. Packet 245/268. || 2019/9/27 || 14:29:45
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:45
+[LOG] Sent TYPE3. Packet 246/268. || 2019/9/27 || 14:29:45
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:45
+[LOG] Sent TYPE3. Packet 247/268. || 2019/9/27 || 14:29:45
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:45
+[LOG] Sent TYPE3. Packet 248/268. || 2019/9/27 || 14:29:45
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:45
+[LOG] Sent TYPE3. Packet 249/268. || 2019/9/27 || 14:29:45
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:45
+[LOG] Sent TYPE3. Packet 250/268. || 2019/9/27 || 14:29:45
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:45
+[LOG] Sent TYPE3. Packet 251/268. || 2019/9/27 || 14:29:45
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:45
+[LOG] Sent TYPE3. Packet 252/268. || 2019/9/27 || 14:29:45
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:45
+[LOG] Sent TYPE3. Packet 253/268. || 2019/9/27 || 14:29:45
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:45
+[LOG] Sent TYPE3. Packet 254/268. || 2019/9/27 || 14:29:45
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:45
+[LOG] Sent TYPE3. Packet 255/268. || 2019/9/27 || 14:29:46
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:46
+[LOG] Sent TYPE3. Packet 256/268. || 2019/9/27 || 14:29:46
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:46
+[LOG] Sent TYPE3. Packet 257/268. || 2019/9/27 || 14:29:46
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:46
+[LOG] Sent TYPE3. Packet 258/268. || 2019/9/27 || 14:29:46
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:46
+[LOG] Sent TYPE3. Packet 259/268. || 2019/9/27 || 14:29:47
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:47
+[LOG] Sent TYPE3. Packet 260/268. || 2019/9/27 || 14:29:47
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:47
+[LOG] Sent TYPE3. Packet 261/268. || 2019/9/27 || 14:29:47
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:47
+[LOG] Sent TYPE3. Packet 262/268. || 2019/9/27 || 14:29:47
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:47
+[LOG] Sent TYPE3. Packet 263/268. || 2019/9/27 || 14:29:47
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:47
+[LOG] Sent TYPE3. Packet 264/268. || 2019/9/27 || 14:29:47
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:47
+[LOG] Sent TYPE3. Packet 265/268. || 2019/9/27 || 14:29:47
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:47
+[LOG] Sent TYPE3. Packet 266/268. || 2019/9/27 || 14:29:47
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:47
+[LOG] Sent TYPE3. Packet 267/268. || 2019/9/27 || 14:29:47
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:47
+[LOG] Sent TYPE3. Packet 268/268. || 2019/9/27 || 14:29:47
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:29:47
+[LOG] File sent sucessfully. || 2019/9/27 || 14:29:48
+[LOG] Throughput:  1.2694381423895804 kb/s. || 2019/9/27 || 14:29:48
+[ERROR] No file selected. Aborting. || 2019/9/27 || 14:30:16
+[LOG] Trying to establish connection to the serial port. || 2019/9/27 || 14:50:13
+[LOG] Connection to the serial port established. || 2019/9/27 || 14:50:13
+[LOG] Port used: /dev/ttyACM1 || 2019/9/27 || 14:50:13
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/foreveralone.jpg || 2019/9/27 || 14:50:19
+[LOG] File size: 33719 bytes || 2019/9/27 || 14:50:19
+[LOG] Sent TYPE1. || 2019/9/27 || 14:50:19
+[LOG] Waiting for TYPE2. || 2019/9/27 || 14:50:19
+[LOG] Sent TYPE3. Packet 1/268. || 2019/9/27 || 14:50:19
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:19
+[LOG] Sent TYPE3. Packet 2/268. || 2019/9/27 || 14:50:19
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:19
+[LOG] Sent TYPE3. Packet 3/268. || 2019/9/27 || 14:50:19
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:19
+[LOG] Sent TYPE3. Packet 4/268. || 2019/9/27 || 14:50:19
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:19
+[LOG] Sent TYPE3. Packet 5/268. || 2019/9/27 || 14:50:19
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:19
+[LOG] Sent TYPE3. Packet 6/268. || 2019/9/27 || 14:50:20
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:20
+[LOG] Sent TYPE3. Packet 7/268. || 2019/9/27 || 14:50:20
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:20
+[LOG] Sent TYPE3. Packet 8/268. || 2019/9/27 || 14:50:20
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:20
+[LOG] Sent TYPE3. Packet 9/268. || 2019/9/27 || 14:50:20
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:20
+[LOG] Sent TYPE3. Packet 10/268. || 2019/9/27 || 14:50:20
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:20
+[LOG] Sent TYPE3. Packet 11/268. || 2019/9/27 || 14:50:20
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:20
+[LOG] Sent TYPE3. Packet 12/268. || 2019/9/27 || 14:50:20
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:20
+[LOG] Sent TYPE3. Packet 13/268. || 2019/9/27 || 14:50:20
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:20
+[LOG] Sent TYPE3. Packet 14/268. || 2019/9/27 || 14:50:20
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:20
+[LOG] Sent TYPE3. Packet 15/268. || 2019/9/27 || 14:50:20
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:20
+[LOG] Sent TYPE3. Packet 16/268. || 2019/9/27 || 14:50:21
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:21
+[LOG] Sent TYPE3. Packet 17/268. || 2019/9/27 || 14:50:21
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:21
+[LOG] Sent TYPE3. Packet 18/268. || 2019/9/27 || 14:50:21
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:21
+[LOG] Sent TYPE3. Packet 19/268. || 2019/9/27 || 14:50:21
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:21
+[LOG] Sent TYPE3. Packet 20/268. || 2019/9/27 || 14:50:21
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:21
+[LOG] Sent TYPE3. Packet 21/268. || 2019/9/27 || 14:50:21
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:21
+[LOG] Sent TYPE3. Packet 22/268. || 2019/9/27 || 14:50:21
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:21
+[LOG] Sent TYPE3. Packet 23/268. || 2019/9/27 || 14:50:21
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:21
+[LOG] Sent TYPE3. Packet 24/268. || 2019/9/27 || 14:50:21
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:21
+[LOG] Sent TYPE3. Packet 25/268. || 2019/9/27 || 14:50:21
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:21
+[LOG] Sent TYPE3. Packet 26/268. || 2019/9/27 || 14:50:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:22
+[LOG] Sent TYPE3. Packet 27/268. || 2019/9/27 || 14:50:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:22
+[LOG] Sent TYPE3. Packet 28/268. || 2019/9/27 || 14:50:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:22
+[LOG] Sent TYPE3. Packet 29/268. || 2019/9/27 || 14:50:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:22
+[LOG] Sent TYPE3. Packet 30/268. || 2019/9/27 || 14:50:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:22
+[LOG] Sent TYPE3. Packet 31/268. || 2019/9/27 || 14:50:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:22
+[LOG] Sent TYPE3. Packet 32/268. || 2019/9/27 || 14:50:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:22
+[LOG] Sent TYPE3. Packet 33/268. || 2019/9/27 || 14:50:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:22
+[LOG] Sent TYPE3. Packet 34/268. || 2019/9/27 || 14:50:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:22
+[LOG] Sent TYPE3. Packet 35/268. || 2019/9/27 || 14:50:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:22
+[LOG] Sent TYPE3. Packet 36/268. || 2019/9/27 || 14:50:22
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:22
+[LOG] Sent TYPE3. Packet 37/268. || 2019/9/27 || 14:50:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:23
+[LOG] Sent TYPE3. Packet 38/268. || 2019/9/27 || 14:50:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:23
+[LOG] Sent TYPE3. Packet 39/268. || 2019/9/27 || 14:50:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:23
+[LOG] Sent TYPE3. Packet 40/268. || 2019/9/27 || 14:50:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:23
+[LOG] Sent TYPE3. Packet 41/268. || 2019/9/27 || 14:50:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:23
+[LOG] Sent TYPE3. Packet 42/268. || 2019/9/27 || 14:50:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:23
+[LOG] Sent TYPE3. Packet 43/268. || 2019/9/27 || 14:50:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:23
+[LOG] Sent TYPE3. Packet 44/268. || 2019/9/27 || 14:50:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:23
+[LOG] Sent TYPE3. Packet 45/268. || 2019/9/27 || 14:50:23
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:23
+[LOG] Sent TYPE3. Packet 46/268. || 2019/9/27 || 14:50:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:24
+[LOG] Sent TYPE3. Packet 47/268. || 2019/9/27 || 14:50:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:24
+[LOG] Sent TYPE3. Packet 48/268. || 2019/9/27 || 14:50:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:24
+[LOG] Sent TYPE3. Packet 49/268. || 2019/9/27 || 14:50:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:24
+[LOG] Sent TYPE3. Packet 50/268. || 2019/9/27 || 14:50:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:24
+[LOG] Sent TYPE3. Packet 51/268. || 2019/9/27 || 14:50:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:24
+[LOG] Sent TYPE3. Packet 52/268. || 2019/9/27 || 14:50:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:24
+[LOG] Sent TYPE3. Packet 53/268. || 2019/9/27 || 14:50:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:24
+[LOG] Sent TYPE3. Packet 54/268. || 2019/9/27 || 14:50:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:24
+[LOG] Sent TYPE3. Packet 55/268. || 2019/9/27 || 14:50:24
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:24
+[LOG] Sent TYPE3. Packet 56/268. || 2019/9/27 || 14:50:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:25
+[LOG] Sent TYPE3. Packet 57/268. || 2019/9/27 || 14:50:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:25
+[LOG] Sent TYPE3. Packet 58/268. || 2019/9/27 || 14:50:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:25
+[LOG] Sent TYPE3. Packet 59/268. || 2019/9/27 || 14:50:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:25
+[LOG] Sent TYPE3. Packet 60/268. || 2019/9/27 || 14:50:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:25
+[LOG] Sent TYPE3. Packet 61/268. || 2019/9/27 || 14:50:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:25
+[LOG] Sent TYPE3. Packet 62/268. || 2019/9/27 || 14:50:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:25
+[LOG] Sent TYPE3. Packet 63/268. || 2019/9/27 || 14:50:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:25
+[LOG] Sent TYPE3. Packet 64/268. || 2019/9/27 || 14:50:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:25
+[LOG] Sent TYPE3. Packet 65/268. || 2019/9/27 || 14:50:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:25
+[LOG] Sent TYPE3. Packet 66/268. || 2019/9/27 || 14:50:25
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:26
+[LOG] Sent TYPE3. Packet 67/268. || 2019/9/27 || 14:50:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:26
+[LOG] Sent TYPE3. Packet 68/268. || 2019/9/27 || 14:50:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:26
+[LOG] Sent TYPE3. Packet 69/268. || 2019/9/27 || 14:50:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:26
+[LOG] Sent TYPE3. Packet 70/268. || 2019/9/27 || 14:50:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:26
+[LOG] Sent TYPE3. Packet 71/268. || 2019/9/27 || 14:50:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:26
+[LOG] Sent TYPE3. Packet 72/268. || 2019/9/27 || 14:50:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:26
+[LOG] Sent TYPE3. Packet 73/268. || 2019/9/27 || 14:50:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:26
+[LOG] Sent TYPE3. Packet 74/268. || 2019/9/27 || 14:50:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:26
+[LOG] Sent TYPE3. Packet 75/268. || 2019/9/27 || 14:50:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:26
+[LOG] Sent TYPE3. Packet 76/268. || 2019/9/27 || 14:50:26
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:26
+[LOG] Sent TYPE3. Packet 77/268. || 2019/9/27 || 14:50:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:27
+[LOG] Sent TYPE3. Packet 78/268. || 2019/9/27 || 14:50:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:27
+[LOG] Sent TYPE3. Packet 79/268. || 2019/9/27 || 14:50:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:27
+[LOG] Sent TYPE3. Packet 80/268. || 2019/9/27 || 14:50:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:27
+[LOG] Sent TYPE3. Packet 81/268. || 2019/9/27 || 14:50:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:27
+[LOG] Sent TYPE3. Packet 82/268. || 2019/9/27 || 14:50:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:27
+[LOG] Sent TYPE3. Packet 83/268. || 2019/9/27 || 14:50:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:27
+[LOG] Sent TYPE3. Packet 84/268. || 2019/9/27 || 14:50:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:27
+[LOG] Sent TYPE3. Packet 85/268. || 2019/9/27 || 14:50:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:27
+[LOG] Sent TYPE3. Packet 86/268. || 2019/9/27 || 14:50:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:27
+[LOG] Sent TYPE3. Packet 87/268. || 2019/9/27 || 14:50:27
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:27
+[LOG] Sent TYPE3. Packet 88/268. || 2019/9/27 || 14:50:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:28
+[LOG] Sent TYPE3. Packet 89/268. || 2019/9/27 || 14:50:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:28
+[LOG] Sent TYPE3. Packet 90/268. || 2019/9/27 || 14:50:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:28
+[LOG] Sent TYPE3. Packet 91/268. || 2019/9/27 || 14:50:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:28
+[LOG] Sent TYPE3. Packet 92/268. || 2019/9/27 || 14:50:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:28
+[LOG] Sent TYPE3. Packet 93/268. || 2019/9/27 || 14:50:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:28
+[LOG] Sent TYPE3. Packet 94/268. || 2019/9/27 || 14:50:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:28
+[LOG] Sent TYPE3. Packet 95/268. || 2019/9/27 || 14:50:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:28
+[LOG] Sent TYPE3. Packet 96/268. || 2019/9/27 || 14:50:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:28
+[LOG] Sent TYPE3. Packet 97/268. || 2019/9/27 || 14:50:28
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:28
+[LOG] Sent TYPE3. Packet 98/268. || 2019/9/27 || 14:50:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:29
+[LOG] Sent TYPE3. Packet 99/268. || 2019/9/27 || 14:50:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:29
+[LOG] Sent TYPE3. Packet 100/268. || 2019/9/27 || 14:50:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:29
+[LOG] Sent TYPE3. Packet 101/268. || 2019/9/27 || 14:50:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:29
+[LOG] Sent TYPE3. Packet 102/268. || 2019/9/27 || 14:50:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:29
+[LOG] Sent TYPE3. Packet 103/268. || 2019/9/27 || 14:50:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:29
+[LOG] Sent TYPE3. Packet 104/268. || 2019/9/27 || 14:50:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:29
+[LOG] Sent TYPE3. Packet 105/268. || 2019/9/27 || 14:50:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:29
+[LOG] Sent TYPE3. Packet 106/268. || 2019/9/27 || 14:50:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:29
+[LOG] Sent TYPE3. Packet 107/268. || 2019/9/27 || 14:50:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:29
+[LOG] Sent TYPE3. Packet 108/268. || 2019/9/27 || 14:50:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:29
+[LOG] Sent TYPE3. Packet 109/268. || 2019/9/27 || 14:50:29
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:29
+[LOG] Sent TYPE3. Packet 110/268. || 2019/9/27 || 14:50:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:30
+[LOG] Sent TYPE3. Packet 111/268. || 2019/9/27 || 14:50:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:30
+[LOG] Sent TYPE3. Packet 112/268. || 2019/9/27 || 14:50:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:30
+[LOG] Sent TYPE3. Packet 113/268. || 2019/9/27 || 14:50:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:30
+[LOG] Sent TYPE3. Packet 114/268. || 2019/9/27 || 14:50:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:30
+[LOG] Sent TYPE3. Packet 115/268. || 2019/9/27 || 14:50:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:30
+[LOG] Sent TYPE3. Packet 116/268. || 2019/9/27 || 14:50:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:30
+[LOG] Sent TYPE3. Packet 117/268. || 2019/9/27 || 14:50:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:30
+[LOG] Sent TYPE3. Packet 118/268. || 2019/9/27 || 14:50:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:30
+[LOG] Sent TYPE3. Packet 119/268. || 2019/9/27 || 14:50:30
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:30
+[LOG] Sent TYPE3. Packet 120/268. || 2019/9/27 || 14:50:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:31
+[LOG] Sent TYPE3. Packet 121/268. || 2019/9/27 || 14:50:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:31
+[LOG] Sent TYPE3. Packet 122/268. || 2019/9/27 || 14:50:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:31
+[LOG] Sent TYPE3. Packet 123/268. || 2019/9/27 || 14:50:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:31
+[LOG] Sent TYPE3. Packet 124/268. || 2019/9/27 || 14:50:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:31
+[LOG] Sent TYPE3. Packet 125/268. || 2019/9/27 || 14:50:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:31
+[LOG] Sent TYPE3. Packet 126/268. || 2019/9/27 || 14:50:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:31
+[LOG] Sent TYPE3. Packet 127/268. || 2019/9/27 || 14:50:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:31
+[LOG] Sent TYPE3. Packet 128/268. || 2019/9/27 || 14:50:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:31
+[LOG] Sent TYPE3. Packet 129/268. || 2019/9/27 || 14:50:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:31
+[LOG] Sent TYPE3. Packet 130/268. || 2019/9/27 || 14:50:31
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:32
+[LOG] Sent TYPE3. Packet 131/268. || 2019/9/27 || 14:50:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:32
+[LOG] Sent TYPE3. Packet 132/268. || 2019/9/27 || 14:50:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:32
+[LOG] Sent TYPE3. Packet 133/268. || 2019/9/27 || 14:50:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:32
+[LOG] Sent TYPE3. Packet 134/268. || 2019/9/27 || 14:50:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:32
+[LOG] Sent TYPE3. Packet 135/268. || 2019/9/27 || 14:50:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:32
+[LOG] Sent TYPE3. Packet 136/268. || 2019/9/27 || 14:50:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:32
+[LOG] Sent TYPE3. Packet 137/268. || 2019/9/27 || 14:50:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:32
+[LOG] Sent TYPE3. Packet 138/268. || 2019/9/27 || 14:50:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:32
+[LOG] Sent TYPE3. Packet 139/268. || 2019/9/27 || 14:50:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:32
+[LOG] Sent TYPE3. Packet 140/268. || 2019/9/27 || 14:50:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:32
+[LOG] Sent TYPE3. Packet 141/268. || 2019/9/27 || 14:50:32
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:32
+[LOG] Sent TYPE3. Packet 142/268. || 2019/9/27 || 14:50:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:33
+[LOG] Sent TYPE3. Packet 143/268. || 2019/9/27 || 14:50:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:33
+[LOG] Sent TYPE3. Packet 144/268. || 2019/9/27 || 14:50:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:33
+[LOG] Sent TYPE3. Packet 145/268. || 2019/9/27 || 14:50:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:33
+[LOG] Sent TYPE3. Packet 146/268. || 2019/9/27 || 14:50:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:33
+[LOG] Sent TYPE3. Packet 147/268. || 2019/9/27 || 14:50:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:33
+[LOG] Sent TYPE3. Packet 148/268. || 2019/9/27 || 14:50:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:33
+[LOG] Sent TYPE3. Packet 149/268. || 2019/9/27 || 14:50:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:33
+[LOG] Sent TYPE3. Packet 150/268. || 2019/9/27 || 14:50:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:33
+[LOG] Sent TYPE3. Packet 151/268. || 2019/9/27 || 14:50:33
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:33
+[LOG] Sent TYPE3. Packet 152/268. || 2019/9/27 || 14:50:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:34
+[LOG] Sent TYPE3. Packet 153/268. || 2019/9/27 || 14:50:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:34
+[LOG] Sent TYPE3. Packet 154/268. || 2019/9/27 || 14:50:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:34
+[LOG] Sent TYPE3. Packet 155/268. || 2019/9/27 || 14:50:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:34
+[LOG] Sent TYPE3. Packet 156/268. || 2019/9/27 || 14:50:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:34
+[LOG] Sent TYPE3. Packet 157/268. || 2019/9/27 || 14:50:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:34
+[LOG] Sent TYPE3. Packet 158/268. || 2019/9/27 || 14:50:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:34
+[LOG] Sent TYPE3. Packet 159/268. || 2019/9/27 || 14:50:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:34
+[LOG] Sent TYPE3. Packet 160/268. || 2019/9/27 || 14:50:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:34
+[LOG] Sent TYPE3. Packet 161/268. || 2019/9/27 || 14:50:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:34
+[LOG] Sent TYPE3. Packet 162/268. || 2019/9/27 || 14:50:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:34
+[LOG] Sent TYPE3. Packet 163/268. || 2019/9/27 || 14:50:34
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:34
+[LOG] Sent TYPE3. Packet 164/268. || 2019/9/27 || 14:50:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:35
+[LOG] Sent TYPE3. Packet 165/268. || 2019/9/27 || 14:50:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:35
+[LOG] Sent TYPE3. Packet 166/268. || 2019/9/27 || 14:50:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:35
+[LOG] Sent TYPE3. Packet 167/268. || 2019/9/27 || 14:50:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:35
+[LOG] Sent TYPE3. Packet 168/268. || 2019/9/27 || 14:50:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:35
+[LOG] Sent TYPE3. Packet 169/268. || 2019/9/27 || 14:50:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:35
+[LOG] Sent TYPE3. Packet 170/268. || 2019/9/27 || 14:50:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:35
+[LOG] Sent TYPE3. Packet 171/268. || 2019/9/27 || 14:50:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:35
+[LOG] Sent TYPE3. Packet 172/268. || 2019/9/27 || 14:50:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:35
+[LOG] Sent TYPE3. Packet 173/268. || 2019/9/27 || 14:50:35
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:35
+[LOG] Sent TYPE3. Packet 174/268. || 2019/9/27 || 14:50:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:36
+[LOG] Sent TYPE3. Packet 175/268. || 2019/9/27 || 14:50:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:36
+[LOG] Sent TYPE3. Packet 176/268. || 2019/9/27 || 14:50:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:36
+[LOG] Sent TYPE3. Packet 177/268. || 2019/9/27 || 14:50:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:36
+[LOG] Sent TYPE3. Packet 178/268. || 2019/9/27 || 14:50:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:36
+[LOG] Sent TYPE3. Packet 179/268. || 2019/9/27 || 14:50:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:36
+[LOG] Sent TYPE3. Packet 180/268. || 2019/9/27 || 14:50:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:36
+[LOG] Sent TYPE3. Packet 181/268. || 2019/9/27 || 14:50:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:36
+[LOG] Sent TYPE3. Packet 182/268. || 2019/9/27 || 14:50:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:36
+[LOG] Sent TYPE3. Packet 183/268. || 2019/9/27 || 14:50:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:36
+[LOG] Sent TYPE3. Packet 184/268. || 2019/9/27 || 14:50:36
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:36
+[LOG] Sent TYPE3. Packet 185/268. || 2019/9/27 || 14:50:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:37
+[LOG] Sent TYPE3. Packet 186/268. || 2019/9/27 || 14:50:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:37
+[LOG] Sent TYPE3. Packet 187/268. || 2019/9/27 || 14:50:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:37
+[LOG] Sent TYPE3. Packet 188/268. || 2019/9/27 || 14:50:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:37
+[LOG] Sent TYPE3. Packet 189/268. || 2019/9/27 || 14:50:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:37
+[LOG] Sent TYPE3. Packet 190/268. || 2019/9/27 || 14:50:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:37
+[LOG] Sent TYPE3. Packet 191/268. || 2019/9/27 || 14:50:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:37
+[LOG] Sent TYPE3. Packet 192/268. || 2019/9/27 || 14:50:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:37
+[LOG] Sent TYPE3. Packet 193/268. || 2019/9/27 || 14:50:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:37
+[LOG] Sent TYPE3. Packet 194/268. || 2019/9/27 || 14:50:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:37
+[LOG] Sent TYPE3. Packet 195/268. || 2019/9/27 || 14:50:37
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:37
+[LOG] Sent TYPE3. Packet 196/268. || 2019/9/27 || 14:50:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:38
+[LOG] Sent TYPE3. Packet 197/268. || 2019/9/27 || 14:50:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:38
+[LOG] Sent TYPE3. Packet 198/268. || 2019/9/27 || 14:50:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:38
+[LOG] Sent TYPE3. Packet 199/268. || 2019/9/27 || 14:50:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:38
+[LOG] Sent TYPE3. Packet 200/268. || 2019/9/27 || 14:50:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:38
+[LOG] Sent TYPE3. Packet 201/268. || 2019/9/27 || 14:50:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:38
+[LOG] Sent TYPE3. Packet 202/268. || 2019/9/27 || 14:50:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:38
+[LOG] Sent TYPE3. Packet 203/268. || 2019/9/27 || 14:50:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:38
+[LOG] Sent TYPE3. Packet 204/268. || 2019/9/27 || 14:50:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:38
+[LOG] Sent TYPE3. Packet 205/268. || 2019/9/27 || 14:50:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:38
+[LOG] Sent TYPE3. Packet 206/268. || 2019/9/27 || 14:50:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:38
+[LOG] Sent TYPE3. Packet 207/268. || 2019/9/27 || 14:50:38
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:38
+[LOG] Sent TYPE3. Packet 208/268. || 2019/9/27 || 14:50:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:39
+[LOG] Sent TYPE3. Packet 209/268. || 2019/9/27 || 14:50:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:39
+[LOG] Sent TYPE3. Packet 210/268. || 2019/9/27 || 14:50:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:39
+[LOG] Sent TYPE3. Packet 211/268. || 2019/9/27 || 14:50:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:39
+[LOG] Sent TYPE3. Packet 212/268. || 2019/9/27 || 14:50:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:39
+[LOG] Sent TYPE3. Packet 213/268. || 2019/9/27 || 14:50:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:39
+[LOG] Sent TYPE3. Packet 214/268. || 2019/9/27 || 14:50:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:39
+[LOG] Sent TYPE3. Packet 215/268. || 2019/9/27 || 14:50:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:39
+[LOG] Sent TYPE3. Packet 216/268. || 2019/9/27 || 14:50:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:39
+[LOG] Sent TYPE3. Packet 217/268. || 2019/9/27 || 14:50:39
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:39
+[LOG] Sent TYPE3. Packet 218/268. || 2019/9/27 || 14:50:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:40
+[LOG] Sent TYPE3. Packet 219/268. || 2019/9/27 || 14:50:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:40
+[LOG] Sent TYPE3. Packet 220/268. || 2019/9/27 || 14:50:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:40
+[LOG] Sent TYPE3. Packet 221/268. || 2019/9/27 || 14:50:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:40
+[LOG] Sent TYPE3. Packet 222/268. || 2019/9/27 || 14:50:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:40
+[LOG] Sent TYPE3. Packet 223/268. || 2019/9/27 || 14:50:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:40
+[LOG] Sent TYPE3. Packet 224/268. || 2019/9/27 || 14:50:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:40
+[LOG] Sent TYPE3. Packet 225/268. || 2019/9/27 || 14:50:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:40
+[LOG] Sent TYPE3. Packet 226/268. || 2019/9/27 || 14:50:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:40
+[LOG] Sent TYPE3. Packet 227/268. || 2019/9/27 || 14:50:40
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:40
+[LOG] Sent TYPE3. Packet 228/268. || 2019/9/27 || 14:50:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:41
+[LOG] Sent TYPE3. Packet 229/268. || 2019/9/27 || 14:50:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:41
+[LOG] Sent TYPE3. Packet 230/268. || 2019/9/27 || 14:50:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:41
+[LOG] Sent TYPE3. Packet 231/268. || 2019/9/27 || 14:50:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:41
+[LOG] Sent TYPE3. Packet 232/268. || 2019/9/27 || 14:50:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:41
+[LOG] Sent TYPE3. Packet 233/268. || 2019/9/27 || 14:50:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:41
+[LOG] Sent TYPE3. Packet 234/268. || 2019/9/27 || 14:50:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:41
+[LOG] Sent TYPE3. Packet 235/268. || 2019/9/27 || 14:50:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:41
+[LOG] Sent TYPE3. Packet 236/268. || 2019/9/27 || 14:50:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:41
+[LOG] Sent TYPE3. Packet 237/268. || 2019/9/27 || 14:50:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:41
+[LOG] Sent TYPE3. Packet 238/268. || 2019/9/27 || 14:50:41
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:41
+[LOG] Sent TYPE3. Packet 239/268. || 2019/9/27 || 14:50:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:42
+[LOG] Sent TYPE3. Packet 240/268. || 2019/9/27 || 14:50:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:42
+[LOG] Sent TYPE3. Packet 241/268. || 2019/9/27 || 14:50:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:42
+[LOG] Sent TYPE3. Packet 242/268. || 2019/9/27 || 14:50:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:42
+[LOG] Sent TYPE3. Packet 243/268. || 2019/9/27 || 14:50:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:42
+[LOG] Sent TYPE3. Packet 244/268. || 2019/9/27 || 14:50:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:42
+[LOG] Sent TYPE3. Packet 245/268. || 2019/9/27 || 14:50:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:42
+[LOG] Sent TYPE3. Packet 246/268. || 2019/9/27 || 14:50:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:42
+[LOG] Sent TYPE3. Packet 247/268. || 2019/9/27 || 14:50:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:42
+[LOG] Sent TYPE3. Packet 248/268. || 2019/9/27 || 14:50:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:42
+[LOG] Sent TYPE3. Packet 249/268. || 2019/9/27 || 14:50:42
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:42
+[LOG] Sent TYPE3. Packet 250/268. || 2019/9/27 || 14:50:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:43
+[LOG] Sent TYPE3. Packet 251/268. || 2019/9/27 || 14:50:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:43
+[LOG] Sent TYPE3. Packet 252/268. || 2019/9/27 || 14:50:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:43
+[LOG] Sent TYPE3. Packet 253/268. || 2019/9/27 || 14:50:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:43
+[LOG] Sent TYPE3. Packet 254/268. || 2019/9/27 || 14:50:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:43
+[LOG] Sent TYPE3. Packet 255/268. || 2019/9/27 || 14:50:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:43
+[LOG] Sent TYPE3. Packet 256/268. || 2019/9/27 || 14:50:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:43
+[LOG] Sent TYPE3. Packet 257/268. || 2019/9/27 || 14:50:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:43
+[LOG] Sent TYPE3. Packet 258/268. || 2019/9/27 || 14:50:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:43
+[LOG] Sent TYPE3. Packet 259/268. || 2019/9/27 || 14:50:43
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:43
+[LOG] Sent TYPE3. Packet 260/268. || 2019/9/27 || 14:50:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:44
+[LOG] Sent TYPE3. Packet 261/268. || 2019/9/27 || 14:50:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:44
+[LOG] Sent TYPE3. Packet 262/268. || 2019/9/27 || 14:50:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:44
+[LOG] Sent TYPE3. Packet 263/268. || 2019/9/27 || 14:50:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:44
+[LOG] Sent TYPE3. Packet 264/268. || 2019/9/27 || 14:50:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:44
+[LOG] Sent TYPE3. Packet 265/268. || 2019/9/27 || 14:50:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:44
+[LOG] Sent TYPE3. Packet 266/268. || 2019/9/27 || 14:50:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:44
+[LOG] Sent TYPE3. Packet 267/268. || 2019/9/27 || 14:50:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:44
+[LOG] Sent TYPE3. Packet 268/268. || 2019/9/27 || 14:50:44
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:50:44
+[LOG] File sent sucessfully. || 2019/9/27 || 14:50:44
+[LOG] Throughput:  1.3229692062693823 kb/s. || 2019/9/27 || 14:50:44
+[LOG] Trying to establish connection to the serial port. || 2019/9/27 || 14:54:2
+[LOG] Connection to the serial port established. || 2019/9/27 || 14:54:2
+[LOG] Port used: /dev/ttyACM1 || 2019/9/27 || 14:54:2
+[LOG] Selected file: /home/henryrocha/Documents/CamadaFisica/Projeto5/justdoit.png || 2019/9/27 || 14:54:6
+[LOG] File size: 38518 bytes || 2019/9/27 || 14:54:6
+[LOG] Sent TYPE1. || 2019/9/27 || 14:54:6
+[LOG] Waiting for TYPE2. || 2019/9/27 || 14:54:6
+[LOG] Sent TYPE3. Packet 1/306. || 2019/9/27 || 14:54:6
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:6
+[ERROR] Packet 1 was invalid. Resending... || 2019/9/27 || 14:54:6
+[LOG] Sent TYPE3. Packet 2/306. || 2019/9/27 || 14:54:6
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:6
+[LOG] Sent TYPE3. Packet 3/306. || 2019/9/27 || 14:54:6
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:6
+[ERROR] Packet 2 was invalid. Resending... || 2019/9/27 || 14:54:6
+[LOG] Sent TYPE3. Packet 3/306. || 2019/9/27 || 14:54:6
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:6
+[LOG] Sent TYPE3. Packet 4/306. || 2019/9/27 || 14:54:6
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:6
+[ERROR] Packet 3 was invalid. Resending... || 2019/9/27 || 14:54:7
+[LOG] Sent TYPE3. Packet 4/306. || 2019/9/27 || 14:54:7
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:7
+[LOG] Sent TYPE3. Packet 5/306. || 2019/9/27 || 14:54:7
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:7
+[ERROR] Packet 4 was invalid. Resending... || 2019/9/27 || 14:54:7
+[LOG] Sent TYPE3. Packet 5/306. || 2019/9/27 || 14:54:7
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:7
+[LOG] Sent TYPE3. Packet 6/306. || 2019/9/27 || 14:54:7
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:7
+[ERROR] Packet 5 was invalid. Resending... || 2019/9/27 || 14:54:7
+[LOG] Sent TYPE3. Packet 6/306. || 2019/9/27 || 14:54:7
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:7
+[LOG] Sent TYPE3. Packet 7/306. || 2019/9/27 || 14:54:7
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:7
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/27 || 14:54:7
+[LOG] Sent TYPE3. Packet 7/306. || 2019/9/27 || 14:54:7
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:7
+[LOG] Sent TYPE3. Packet 8/306. || 2019/9/27 || 14:54:7
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:7
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/27 || 14:54:7
+[LOG] Sent TYPE3. Packet 7/306. || 2019/9/27 || 14:54:7
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:7
+[ERROR] Packet 6 was invalid. Resending... || 2019/9/27 || 14:54:7
+[LOG] Sent TYPE3. Packet 7/306. || 2019/9/27 || 14:54:7
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:7
+[LOG] Sent TYPE3. Packet 8/306. || 2019/9/27 || 14:54:7
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:7
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/27 || 14:54:7
+[LOG] Sent TYPE3. Packet 8/306. || 2019/9/27 || 14:54:8
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:8
+[LOG] Sent TYPE3. Packet 9/306. || 2019/9/27 || 14:54:8
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:8
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/27 || 14:54:8
+[LOG] Sent TYPE3. Packet 8/306. || 2019/9/27 || 14:54:8
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:8
+[ERROR] Packet 7 was invalid. Resending... || 2019/9/27 || 14:54:8
+[LOG] Sent TYPE3. Packet 8/306. || 2019/9/27 || 14:54:8
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:8
+[LOG] Sent TYPE3. Packet 9/306. || 2019/9/27 || 14:54:8
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:8
+[ERROR] Packet 8 was invalid. Resending... || 2019/9/27 || 14:54:8
+[LOG] Sent TYPE3. Packet 9/306. || 2019/9/27 || 14:54:8
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:8
+[LOG] Sent TYPE3. Packet 10/306. || 2019/9/27 || 14:54:8
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:8
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/27 || 14:54:8
+[LOG] Sent TYPE3. Packet 10/306. || 2019/9/27 || 14:54:8
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:8
+[LOG] Sent TYPE3. Packet 11/306. || 2019/9/27 || 14:54:8
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:8
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/27 || 14:54:8
+[LOG] Sent TYPE3. Packet 10/306. || 2019/9/27 || 14:54:8
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:8
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/27 || 14:54:8
+[LOG] Sent TYPE3. Packet 10/306. || 2019/9/27 || 14:54:8
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:8
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/27 || 14:54:9
+[LOG] Sent TYPE3. Packet 10/306. || 2019/9/27 || 14:54:9
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:9
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/27 || 14:54:9
+[LOG] Sent TYPE3. Packet 10/306. || 2019/9/27 || 14:54:9
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:9
+[LOG] Sent TYPE3. Packet 11/306. || 2019/9/27 || 14:54:9
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:9
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/27 || 14:54:9
+[LOG] Sent TYPE3. Packet 10/306. || 2019/9/27 || 14:54:9
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:9
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/27 || 14:54:9
+[LOG] Sent TYPE3. Packet 10/306. || 2019/9/27 || 14:54:9
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:9
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/27 || 14:54:9
+[LOG] Sent TYPE3. Packet 10/306. || 2019/9/27 || 14:54:9
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:9
+[ERROR] Packet 9 was invalid. Resending... || 2019/9/27 || 14:54:9
+[LOG] Sent TYPE3. Packet 10/306. || 2019/9/27 || 14:54:9
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:9
+[LOG] Sent TYPE3. Packet 11/306. || 2019/9/27 || 14:54:9
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:9
+[ERROR] Packet 10 was invalid. Resending... || 2019/9/27 || 14:54:9
+[LOG] Sent TYPE3. Packet 11/306. || 2019/9/27 || 14:54:9
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:9
+[LOG] Sent TYPE3. Packet 12/306. || 2019/9/27 || 14:54:9
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:9
+[ERROR] Packet 10 was invalid. Resending... || 2019/9/27 || 14:54:9
+[LOG] Sent TYPE3. Packet 11/306. || 2019/9/27 || 14:54:10
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:10
+[ERROR] Packet 10 was invalid. Resending... || 2019/9/27 || 14:54:10
+[LOG] Sent TYPE3. Packet 11/306. || 2019/9/27 || 14:54:10
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:10
+[LOG] Sent TYPE3. Packet 12/306. || 2019/9/27 || 14:54:10
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:10
+[ERROR] Packet 11 was invalid. Resending... || 2019/9/27 || 14:54:10
+[LOG] Sent TYPE3. Packet 12/306. || 2019/9/27 || 14:54:10
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:10
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:10
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:10
+[ERROR] Packet 10 was invalid. Resending... || 2019/9/27 || 14:54:10
+[LOG] Sent TYPE3. Packet 11/306. || 2019/9/27 || 14:54:10
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:10
+[ERROR] Packet 10 was invalid. Resending... || 2019/9/27 || 14:54:10
+[LOG] Sent TYPE3. Packet 11/306. || 2019/9/27 || 14:54:10
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:10
+[LOG] Sent TYPE3. Packet 12/306. || 2019/9/27 || 14:54:10
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:10
+[ERROR] Packet 10 was invalid. Resending... || 2019/9/27 || 14:54:10
+[LOG] Sent TYPE3. Packet 11/306. || 2019/9/27 || 14:54:10
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:10
+[ERROR] Packet 10 was invalid. Resending... || 2019/9/27 || 14:54:10
+[LOG] Sent TYPE3. Packet 11/306. || 2019/9/27 || 14:54:10
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:10
+[LOG] Sent TYPE3. Packet 12/306. || 2019/9/27 || 14:54:10
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:10
+[ERROR] Packet 11 was invalid. Resending... || 2019/9/27 || 14:54:10
+[LOG] Sent TYPE3. Packet 12/306. || 2019/9/27 || 14:54:10
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:10
+[ERROR] Packet 11 was invalid. Resending... || 2019/9/27 || 14:54:11
+[LOG] Sent TYPE3. Packet 12/306. || 2019/9/27 || 14:54:11
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:11
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:11
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:11
+[ERROR] Packet 11 was invalid. Resending... || 2019/9/27 || 14:54:11
+[LOG] Sent TYPE3. Packet 12/306. || 2019/9/27 || 14:54:11
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:11
+[ERROR] Packet 11 was invalid. Resending... || 2019/9/27 || 14:54:11
+[LOG] Sent TYPE3. Packet 12/306. || 2019/9/27 || 14:54:11
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:11
+[ERROR] Packet 11 was invalid. Resending... || 2019/9/27 || 14:54:11
+[LOG] Sent TYPE3. Packet 12/306. || 2019/9/27 || 14:54:11
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:11
+[ERROR] Packet 11 was invalid. Resending... || 2019/9/27 || 14:54:11
+[LOG] Sent TYPE3. Packet 12/306. || 2019/9/27 || 14:54:11
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:11
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:11
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:11
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:11
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:11
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:11
+[LOG] Sent TYPE3. Packet 14/306. || 2019/9/27 || 14:54:11
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:11
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:11
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:12
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:12
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:12
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:12
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:12
+[LOG] Sent TYPE3. Packet 14/306. || 2019/9/27 || 14:54:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:12
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:12
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:12
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:12
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:12
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:12
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:12
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:12
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:12
+[LOG] Sent TYPE3. Packet 14/306. || 2019/9/27 || 14:54:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:12
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:12
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:12
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:12
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:13
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:13
+[LOG] Sent TYPE3. Packet 14/306. || 2019/9/27 || 14:54:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:13
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:13
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:13
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:13
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:13
+[LOG] Sent TYPE3. Packet 14/306. || 2019/9/27 || 14:54:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:13
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:13
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:13
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:13
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:13
+[LOG] Sent TYPE3. Packet 14/306. || 2019/9/27 || 14:54:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:13
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:13
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:13
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:13
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:13
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:13
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:13
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:13
+[ERROR] Packet 12 was invalid. Resending... || 2019/9/27 || 14:54:13
+[LOG] Sent TYPE3. Packet 13/306. || 2019/9/27 || 14:54:14
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:14
+[LOG] Sent TYPE3. Packet 14/306. || 2019/9/27 || 14:54:14
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:14
+[ERROR] Packet 13 was invalid. Resending... || 2019/9/27 || 14:54:14
+[LOG] Sent TYPE3. Packet 14/306. || 2019/9/27 || 14:54:14
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:14
+[LOG] Sent TYPE3. Packet 15/306. || 2019/9/27 || 14:54:14
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:14
+[ERROR] Packet 13 was invalid. Resending... || 2019/9/27 || 14:54:14
+[LOG] Sent TYPE3. Packet 14/306. || 2019/9/27 || 14:54:14
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:14
+[ERROR] Packet 13 was invalid. Resending... || 2019/9/27 || 14:54:14
+[LOG] Sent TYPE3. Packet 14/306. || 2019/9/27 || 14:54:14
+[LOG] Waiting for TYPE4. || 2019/9/27 || 14:54:14
