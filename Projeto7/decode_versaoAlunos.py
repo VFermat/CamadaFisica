@@ -40,7 +40,7 @@ def main():
     bib = signalMeu()
 
     # Tempo de duração da gravação.
-    duration = 1
+    duration = 3
 
     # Taxa de amostragem.
     sampleRate = 44100
@@ -48,8 +48,14 @@ def main():
     # Número de canais a serem gravados.
     channels = 1
 
-    # Timer para gravar.
-    time.sleep(3)
+    time.sleep(1)
+    print("3...")
+
+    time.sleep(1)
+    print("2...")
+
+    time.sleep(1)
+    print("1...")
     print("Recording...")
 
     # Gravando o áudio.
@@ -63,11 +69,11 @@ def main():
     xf, yf = bib.calcFFT(audio2, sampleRate)
     
     # Plotando o gráfico do FFT.
-    # plt.title("Fourier Audio")
-    # plt.figure("F(y)")
-    # plt.plot(xf, yf)
-    # plt.grid()
-    # plt.show()
+    plt.title("Fourier Audio")
+    plt.figure("F(y)")
+    plt.plot(xf, yf)
+    plt.grid()
+    plt.show()
 
     # Pegando o índice de cada pico (onde está na lista).
     indexes = peakutils.indexes(yf, 0.05, min_dist=100)
@@ -77,16 +83,28 @@ def main():
     peaks = [xf[i] for i in indexes if xf[i] > 600 and xf[i] < 2000]
 
     # Printando os picos.
-    for peak in peaks:
-        print(f"Peak: {peak}")
+    print(f"Peaks: {peaks}")
 
     # Verificando se os picos estão dentro da tabela de números, incluindo a margem de erro.
     margin = 10
     for entry in dfmtTable:
         number = entry[0]
 
-        if (entry[1] - margin <= peaks[0] <= entry[1] + margin and entry[2] - margin <= peaks[1] <= entry[2] + margin):
+        first = False
+        second = False
+
+        for peak in peaks:
+            if (entry[1] - margin <= peak <= entry[1] + margin): 
+                first = True
+
+            if (entry[2] - margin <= peak <= entry[2] + margin):
+                second = True
+
+        if (first and second):
             print(f"Number is: {number}")
+
+        # if (entry[1] - margin <= peaks[0] <= entry[1] + margin and entry[2] - margin <= peaks[1] <= entry[2] + margin):
+        #     print(f"Number is: {number}")
 
 
 if __name__ == "__main__":

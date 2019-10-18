@@ -46,7 +46,7 @@ def main():
     sampleRate = 44100
 
     # Tempo de duração por caracter.
-    duration = 0.5
+    duration = 2
 
     # Amplitude.
     amplitude = 1
@@ -83,7 +83,7 @@ def main():
     
     # Plotando a transformada do sinal.
     # bib.plotFFT(signal, sampleRate)
-    # plt.show()
+    plt.show()
 
 
 if __name__ == "__main__":
