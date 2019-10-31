@@ -1,9 +1,23 @@
+from scipy.signal import butter, lfilter, freqz
 from suaBibSignal import signalMeu
 import matplotlib.pyplot as plt
 from scipy.io import wavfile
 from scipy import signal
 import sounddevice as sd
 import numpy as np
+
+
+def butter_lowpass(cutoff, fs, order=5):
+    nyq = 0.5 * fs
+    normal_cutoff = cutoff / nyq
+    b, a = butter(order, normal_cutoff, btype='low', analog=False)
+    return b, a
+
+
+def butter_lowpass_filter(data, cutoff, fs, order=5):
+    b, a = butter_lowpass(cutoff, fs, order=order)
+    y = lfilter(b, a, data)
+    return y
 
 
 if __name__ == "__main__":
@@ -25,27 +39,23 @@ if __name__ == "__main__":
     plt.plot(time, data)
 
     # Normalização para número de 16-bit.
-    normalized = [x/32768 for x in data]
+    data = np.array(data)
+    div = max(abs(data))
+    normalized = data/div
 
     # Plotando o áudio normalizado.
     plt.figure()
     plt.title("Áudio Normalizado")
     plt.plot(time, normalized)
 
-    # Filtro passa baixa.
-    nyq_rate = fs/2
-    width = 5.0/nyq_rate
-    ripple_db = 60.0
-    N, beta = signal.kaiserord(ripple_db, width)
-    cutoff_hz = 4000.0
-    taps = signal.firwin(N, cutoff_hz/nyq_rate, window=('kaiser', beta))
-    normalizedLPF = signal.lfilter(taps, 1.0, normalized)
+    # Get the filter coefficients so we can check its frequency response.
+    normalizedLPF = butter_lowpass_filter(normalized, 4000, fs, 10)
 
-    # Criando a onde portadora.
+    # Criando a onda portadora.
     x, carrier = bib.generateSin(14000, 1, duration, fs)
 
-    # Gerando a onde a ser enviada.
-    output = [normalizedLPF[i] * carrier[i] for i in range(len(carrier))]
+    # Gerando a onda a ser enviada.
+    output = normalizedLPF * carrier
 
     # Plotando a onda de saída.
     plt.figure()
