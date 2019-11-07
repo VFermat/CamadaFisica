@@ -613,7 +613,7 @@
     </param>
     <param>
       <key>port</key>
-      <value>2526</value>
+      <value>9989</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -1006,7 +1006,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(968, 516)</value>
+      <value>(992, 484)</value>
     </param>
     <param>
       <key>gui_hint</key>
