@@ -48,6 +48,15 @@ if __name__ == "__main__":
     plt.title("Áudio Normalizado")
     plt.plot(time, normalized)
 
+    # Calculando FFT.
+    xf, yf = bib.calcFFT(normalized, fs)
+
+    # Plotando o gráfico do FFT.
+    plt.title("Fourier Audio")
+    plt.figure("F(y) Antes de modular")
+    plt.plot(xf, yf)
+    plt.grid()
+
     # Get the filter coefficients so we can check its frequency response.
     normalizedLPF = butter_lowpass_filter(normalized, 4000, fs, 10)
 
@@ -56,6 +65,15 @@ if __name__ == "__main__":
 
     # Gerando a onda a ser enviada.
     output = normalizedLPF * carrier
+
+    # Calculando FFT.
+    xf, yf = bib.calcFFT(output, fs)
+
+    # Plotando o gráfico do FFT.
+    plt.title("Fourier Audio depois de modular")
+    plt.figure("F(y)")
+    plt.plot(xf, yf)
+    plt.grid()
 
     # Plotando a onda de saída.
     plt.figure()
@@ -67,4 +85,4 @@ if __name__ == "__main__":
     sd.wait()
 
     # Mostrando todos os gráficos.
-    plt.show()
+    # plt.show()

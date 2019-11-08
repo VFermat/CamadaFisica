@@ -52,13 +52,22 @@ if __name__ == "__main__":
     audio = [a[0] for a in audio]
     audio = np.array(audio)
 
+    # Calculando FFT.
+    xf, yf = bib.calcFFT(audio, fs)
+
+    # Plotando o gráfico do FFT.
+    plt.title("Fourier Audio")
+    plt.figure("F(y) AM recebido")
+    plt.plot(xf, yf)
+    plt.grid()
+
     # Criando o eixo X do áudio, usado para plotar os gráficos.
     time = np.linspace(0.0, duration, len(audio))
 
     # Plotando o áudio.
     plt.figure()
     plt.title("AM recebido")
-    plt.plot(time, audio)
+    plt.plot(time[:400], audio[:400])
 
     # Criando a onda portadora.
     _, carrier = bib.generateSin(14000, 1, duration, fs)
@@ -69,6 +78,15 @@ if __name__ == "__main__":
     # Filtro passa baixa.
     output = butter_lowpass_filter(multiplication, 4000, fs, 10)
 
+    # Calculando FFT.
+    xf, yf = bib.calcFFT(output, fs)
+
+    # Plotando o gráfico do FFT.
+    plt.title("Fourier Audio")
+    plt.figure("F(y) demodulado")
+    plt.plot(xf, yf)
+    plt.grid()
+
     # Plotando o áudio.
     plt.figure()
     plt.title("AM demodulado")
@@ -77,3 +95,4 @@ if __name__ == "__main__":
     # Dando play na onda de saída.
     sd.play(output, fs)
     sd.wait()
+    plt.show()
